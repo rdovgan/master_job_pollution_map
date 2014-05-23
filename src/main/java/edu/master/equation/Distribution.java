@@ -30,6 +30,48 @@ public class Distribution {
         u = 5; //TODO: get value from Variables.getWind();
     }
 
+    public double getDistribution(double x, double y, double z, double t){
+        return output/((pow(2*PI, 3./2)*sigX*sigY*sigZ)) * exp(-pow((x-x0)-u*t, 2)/(2*pow(sigX,2))) *
+                exp(-(pow(y-y0,2))/(2*pow(sigY,2))) * ( exp(-(pow(z-h,2))/(2*pow(sigZ,2))) +
+                exp(-pow(z+h,2)/(2*pow(sigZ,2))));
+    }
+
+    public double getDx(double x, double y, double z, double t){
+        return -(output*(exp(-pow(h-z,2)/(2*sigZ)) +exp(-pow(h+z,2)/(2*sigZ)))*(-t*u+x-x0)*exp(-pow(t*u-x+x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2))))/
+                (2*sqrt(2)*pow(PI,3./2)*pow(sigX,3)*sigY*sigZ);
+    }
+
+    public double getDy(double x, double y, double z, double t){
+            return -(output*(y-y0)*(exp(-pow(z-h,2)/(2*pow(sigZ,2)))+exp(-pow(h+z,2)/(2*pow(sigZ,2))))*exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2))))/
+                    (2*sqrt(2)*pow(PI,3./2)*sigX*pow(sigY,3)*sigZ);
+    }
+
+    public double getDz(double x, double y, double z, double t){
+        return (output*(-(z-h)*exp(-pow(z-h,2)/(2*pow(sigZ,2)))/pow(sigZ,2)-(h+z)*exp(-pow(h+z,2)/(2*pow(sigZ,2)))/pow(sigZ,2))*
+                exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2))))/
+                (2*sqrt(2)*pow(PI,3./2)*sigX*sigY*sigZ);
+    }
+
+    public double getD2x(double x, double y, double z, double t){
+        return (output*(exp(-pow(z-h,2)/(2*pow(sigZ,2)))+exp(-pow(h+z,2)/(2*pow(sigZ,2))))*
+                (pow(-t*u+x-x0,2)*exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2)))/pow(sigX,4)-
+                exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2)))/pow(sigX,2)))/
+                (2*sqrt(2)*pow(PI,3./2)*sigX*sigY*sigZ);
+    }
+
+    public double getD2y(double x, double y, double z, double t){
+        return (output*(exp(-pow(z-h,2)/(2*pow(sigZ,2)))+exp(-pow(h+z,2)/(2*pow(sigZ,2))))*
+                (pow(y-y0,2)*exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2)))/pow(sigY,4)-
+                    exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2)))/pow(sigY,2)))/
+                (2*sqrt(2)*pow(PI,3./2)*sigX*sigY*sigZ);
+    }
+
+    public double getD2z(double x, double y, double z, double t){
+        return (output*(pow(h,2)*(exp((2*h*z)/pow(sigZ,2))+1)-(pow(sigZ,2)-pow(z,2))*(exp((2*h*z)/(pow(sigZ,2)))+1)-2*h*z*(exp((2*h*z)/(pow(sigZ,2)))-1)))*
+                exp(1./2*(-pow(h+z,2)/pow(sigZ,2)-pow(t*u-x+x0,2)/pow(sigX,2)-(pow(y-y0,2)/pow(sigY,2))))/
+                (2*sqrt(2)*pow(PI,3./2)*sigX*sigY*pow(sigZ,5));
+    }
+
     public double getOutput() {
         return output;
     }
@@ -94,46 +136,5 @@ public class Distribution {
         this.u = u;
     }
 
-    public double getDistribution(double x, double y, double z, double t){
-        return output/((pow(2*PI, 3./2)*sigX*sigY*sigZ)) * exp(-pow((x-x0)-u*t, 2)/(2*pow(sigX,2))) *
-                exp(-(pow(y-y0,2))/(2*pow(sigY,2))) * ( exp(-(pow(z-h,2))/(2*pow(sigZ,2))) +
-                exp(-pow(z+h,2)/(2*pow(sigZ,2))));
-    }
-
-    public double getDx(double x, double y, double z, double t){
-        return -(output*(exp(-pow(h-z,2)/(2*sigZ)) +exp(-pow(h+z,2)/(2*sigZ)))*(-t*u+x-x0)*exp(-pow(t*u-x+x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2))))/
-                (2*sqrt(2)*pow(PI,3./2)*pow(sigX,3)*sigY*sigZ);
-    }
-
-    public double getDy(double x, double y, double z, double t){
-            return -(output*(y-y0)*(exp(-pow(z-h,2)/(2*pow(sigZ,2)))+exp(-pow(h+z,2)/(2*pow(sigZ,2))))*exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2))))/
-                    (2*sqrt(2)*pow(PI,3./2)*sigX*pow(sigY,3)*sigZ);
-    }
-
-    public double getDz(double x, double y, double z, double t){
-        return (output*(-(z-h)*exp(-pow(z-h,2)/(2*pow(sigZ,2)))/pow(sigZ,2)-(h+z)*exp(-pow(h+z,2)/(2*pow(sigZ,2)))/pow(sigZ,2))*
-                exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2))))/
-                (2*sqrt(2)*pow(PI,3./2)*sigX*sigY*sigZ);
-    }
-
-    public double getD2x(double x, double y, double z, double t){
-        return (output*(exp(-pow(z-h,2)/(2*pow(sigZ,2)))+exp(-pow(h+z,2)/(2*pow(sigZ,2))))*
-                (pow(-t*u+x-x0,2)*exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2)))/pow(sigX,4)-
-                exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2)))/pow(sigX,2)))/
-                (2*sqrt(2)*pow(PI,3./2)*sigX*sigY*sigZ);
-    }
-
-    public double getD2y(double x, double y, double z, double t){
-        return (output*(exp(-pow(z-h,2)/(2*pow(sigZ,2)))+exp(-pow(h+z,2)/(2*pow(sigZ,2))))*
-                (pow(y-y0,2)*exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2)))/pow(sigY,4)-
-                    exp(-pow(-t*u+x-x0,2)/(2*pow(sigX,2))-pow(y-y0,2)/(2*pow(sigY,2)))/pow(sigY,2)))/
-                (2*sqrt(2)*pow(PI,3./2)*sigX*sigY*sigZ);
-    }
-
-    public double getD2z(double x, double y, double z, double t){
-        return (output*(pow(h,2)*(exp((2*h*z)/pow(sigZ,2))+1)-(pow(sigZ,2)-pow(z,2))*(exp((2*h*z)/(pow(sigZ,2)))+1)-2*h*z*(exp((2*h*z)/(pow(sigZ,2)))-1)))*
-                exp(1./2*(-pow(h+z,2)/pow(sigZ,2)-pow(t*u-x+x0,2)/pow(sigX,2)-(pow(y-y0,2)/pow(sigY,2))))/
-                (2*sqrt(2)*pow(PI,3./2)*sigX*sigY*pow(sigZ,5));
-    }
 
 }

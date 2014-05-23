@@ -2,6 +2,8 @@ package edu.master.equation;
 
 import edu.master.data.Point2D;
 
+import static java.lang.Math.*;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
@@ -42,7 +44,7 @@ public class Variables {
     }
 
     public int getH(double x, double y){
-        return (int)Math.random()*100;//TODO: get value from heightMap
+        return (int)random()*100;//TODO: get value from heightMap
     }
 
     public Wind getWind(double x, double y){
@@ -62,6 +64,13 @@ public class Variables {
         return wind;
     }
 
+    public Wind getWindFromJSON(double degree, double speed){
+        if(speed<=0)return new Wind(0,0);
+        double u = speed * cos(toRadians(degree));
+        double v = speed * sin(toRadians(degree));
+        return new Wind(u,v);
+    }
+
     public double getU2D(double x, double y) {
         return getWind(x,y).u;
     }
@@ -71,15 +80,15 @@ public class Variables {
     }
 
     public double getU3D(double x, double y, double z) {
-        return getU2D(x, y)*Math.pow(z/getH(x,y), Table.getM(atmosphere));
+        return getU2D(x, y)*pow(z/getH(x,y), Table.getM(atmosphere));
     }
 
     public double getV3D(double x, double y, double z) {
-        return getV2D(x, y)*Math.pow(z/getH(x,y), Table.getM(atmosphere));
+        return getV2D(x, y)*pow(z/getH(x,y), Table.getM(atmosphere));
     }
 
     public double getWind(double x, double y, double z) {
-        return Math.sqrt(Math.pow(getU3D(x, y, z), 2) + Math.pow(getV3D(x, y, z), 2));
+        return sqrt(pow(getU3D(x, y, z), 2) + pow(getV3D(x, y, z), 2));
     }
 
     public double getRichardsonNumber(double x, double y, double z) {
@@ -95,22 +104,22 @@ public class Variables {
     }
 
     public double getKg(double x, double y, double z) {
-        return getK1() * (z / getZ1()) * Math.pow(1 - getRichardsonNumber(x, y, z), 1. / 2);
+        return getK1() * (z / getZ1()) * pow(1 - getRichardsonNumber(x, y, z), 1. / 2);
     }
 
     public double getKz(double x, double y, double z) {
         int h = getH(x,y);
         if (z <= h) {
-            return getK1() * Math.pow(z / getZ1(), 1 - Math.E);
+            return getK1() * pow(z / getZ1(), 1 - E);
         } else {
-            return getK1() * Math.pow(h / getZ1(), 1 - Math.E);
+            return getK1() * pow(h / getZ1(), 1 - E);
         }
     }
 
     public double getDKz(double x, double y, double z){
         int h = getH(x,y);
         if(z <= h){
-            return -(Math.E-1.)*getK1()*Math.pow(z/getZ1(), -Math.E)/getZ1();
+            return -(E-1.)*getK1()*pow(z/getZ1(), -E)/getZ1();
         }else{
             return 0;
         }

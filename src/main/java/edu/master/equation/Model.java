@@ -20,7 +20,7 @@ public class Model {
     private Distribution distr = new Distribution();
 
     public int getHeightLayer(int layerNumber, int height) {
-        int layersHeight = layerNumber * layerHeight;
+        int layersHeight = (layerNumber+1) * layerHeight;
         int result = layersHeight - height;
         if (result < 0) return 0;
         if (result > layerHeight) return layerHeight;
