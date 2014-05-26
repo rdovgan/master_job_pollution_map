@@ -27,7 +27,7 @@ public class Distribution {
         x0 = 50; //TODO: get
         y0 = 50; //TODO: get
         h = 10; //TODO: get
-        u = 5; //TODO: get value from Variables.getWind();
+        u = 5; //TODO: get value from Variables.getWind() in every function
     }
 
     public double getDistribution(double x, double y, double z, double t){

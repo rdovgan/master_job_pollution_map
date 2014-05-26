@@ -17,6 +17,31 @@ var marker;
 
 var output, x0, y0, height, sigX, sigY, sigZ, atmosphere, temperature;
 
+var json = "empty";
+var jsonUrl = "http://api.worldweatheronline.com/free/v1/weather.ashx?q="+x0+"%3B"+y0+"%3B&format=json&num_of_days=1&key=ks9t3qx33mvme6t6238vfu56";
+
+
+function getJSON() {
+    $.ajax({
+        async : false,
+        url: jsonUrl,
+        type:"GET",
+        crossDomain: true,
+        dataType: "jsonp",
+        success: function(response){
+            json = JSON.stringify(response.data);
+        },
+        error : function(response){
+            console.error(response);
+        },
+        beforeSend:function(){
+            headers:{'Access-Control-Allow-Origin : http://localhost:8080'}
+        }
+    });
+}
+
+
+
 $(document)
     .ready(function () {
         output = $('#output').val();
@@ -29,13 +54,26 @@ $(document)
         atmosphere = $('#atmosphere').val();
         temperature = $('#temperature').val();
 
+        //get json with weather
+        getJSON();
+
         $('#sendValues').click(function () {
             $.ajax({
-                type : "post",
-                url : "getValues",
-                data : "output="+output+"&x0="+x0+"&y0="+y0+"&height="+height+"&sigX="+sigX+"&sigY="+sigY+"&sigZ="+
-                    sigZ+"&atmosphere="+atmosphere+"&temperature="+temperature,
-                success : function(response) {
+                type: "post",
+                url: "getValues",
+                data: "output=" + output + "&x0=" + x0 + "&y0=" + y0 + "&height=" + height + "&sigX=" + sigX + "&sigY=" + sigY + "&sigZ=" +
+                    sigZ + "&atmosphere=" + atmosphere + "&temperature=" + temperature,
+                success: function (response) {
+                },
+                error: function (e) {
+                    console.error(e);
+                }
+            });
+            $.ajax({
+                type: "post",
+                url: "getJSON",
+                data: json,
+                success: function (response) {
                 },
                 error : function(e){
                     console.error(e);

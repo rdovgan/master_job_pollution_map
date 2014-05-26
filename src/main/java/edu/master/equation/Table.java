@@ -18,6 +18,11 @@ public final class Table {
     private static Map<Character, Double> r = new HashMap<Character, Double>();
 
 
+    public static final double cellWidth = 1000;
+    public static final double speedChange = 0.8;
+    public static final double degreeChange = 20;
+    public static final int cellCount = 20;
+
     public class TwoDoubles{
         public double d1;
         public double d2;
