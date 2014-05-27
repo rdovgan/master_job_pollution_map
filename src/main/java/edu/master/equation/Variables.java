@@ -5,7 +5,6 @@ import edu.master.data.Point2D;
 import java.util.Map;
 import java.util.TreeMap;
 
-import static edu.master.equation.Table.*;
 import static java.lang.Math.*;
 
 /**
@@ -18,6 +17,8 @@ public class Variables {
     private final double gamaA = 0.0098;
     private final double koefCp = 1.3;
     private final double t0 = 273;
+
+    private int cellWidth = 1000;
 
     private TreeMap<Point2D, Wind> windMap = null;
     private Map<Point2D, Integer> heightMap = null;
@@ -157,5 +158,13 @@ public class Variables {
 
     public void setT(int t) {
         this.t = t;
+    }
+
+    public int getCellWidth() {
+        return cellWidth;
+    }
+
+    public void setCellWidth(int cellWidth) {
+        this.cellWidth = cellWidth;
     }
 }

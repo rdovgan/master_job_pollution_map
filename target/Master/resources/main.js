@@ -15,11 +15,15 @@ var bool = 1;
 var pointH = [];
 var marker;
 
+var cellCount = 20;
+var cellWidth = 1000;
+
 var output, x0, y0, height, sigX, sigY, sigZ, atmosphere, temperature;
+var timeBegin, timeEnd, timeDelta, eps, layerCount, layerHeight;
 
-var json = "empty";
+var json = '{"data":{"current_condition":[{"temp_C": "13", "winddirDegree": "310","windspeedKmph":"15"}]}}';
 var jsonUrl = "http://api.worldweatheronline.com/free/v1/weather.ashx?q="+x0+"%3B"+y0+"%3B&format=json&num_of_days=1&key=ks9t3qx33mvme6t6238vfu56";
-
+var heightMap ={points: []};
 
 function getJSON() {
     $.ajax({
@@ -40,6 +44,15 @@ function getJSON() {
     });
 }
 
+function getHeightMap(){
+    var dx = 1./cellWidth;
+    for(i=-parseInt(cellCount/2); i<parseInt(cellCount/2); i++)
+        for(j=-parseInt(cellCount/2); j<parseInt(cellCount/2); j++){
+            x = parseFloat(x0)+i*dx;
+            y = parseFloat(y0)+j*dx;
+            getHeight(x,y);
+        }
+}
 
 
 $(document)
@@ -54,10 +67,17 @@ $(document)
         atmosphere = $('#atmosphere').val();
         temperature = $('#temperature').val();
 
+        timeBegin = $('#timeBegin').val();
+        timeEnd = $('#timeEnd').val();
+        timeDelta = $('#timeDelta').val();
+        eps = $('#eps').val();
+        layerCount = $('#layerCount').val();
+        layerHeight = $('#layerHeight').val();
+
         //get json with weather
         getJSON();
-
         $('#sendValues').click(function () {
+            getHeightMap();
             $.ajax({
                 type: "post",
                 url: "getValues",
@@ -73,6 +93,8 @@ $(document)
                 type: "post",
                 url: "getJSON",
                 data: json,
+                contentType: "application/json",
+                dataType: "json",
                 success: function (response) {
                 },
                 error : function(e){
@@ -82,7 +104,19 @@ $(document)
         });
 
         $('#getResult').click(function () {
-            alert('getResult');
+            alert(JSON.stringify(heightMap));
+            $.ajax({
+                type: "post",
+                url: "getHeightMap",
+                data: heightMap,
+                contentType: "application/json",
+                dataType: "json",
+                success: function (response) {
+                },
+                error : function(e){
+                    console.error(e);
+                }
+            });
         });
     });
 
@@ -127,20 +161,25 @@ function initialize() {
     });
 }
 
-function changeH(temp, step) {
+function getHeight(x,y) {
+    var point = new google.maps.LatLng(x, y);
     var elevator = new google.maps.ElevationService();
     var locations = [];
-    var clickedLocation = temp;
+    var clickedLocation = point;
     locations.push(clickedLocation);
     var positionalRequest = {
         'locations': locations
     }
-    var rez;
     elevator.getElevationForLocations(positionalRequest, function (results, status) {
         if (status == google.maps.ElevationStatus.OK) {
             if (results[0]) {
-                rez = results[0].elevation;
-                arrH[step] = rez;
+                var result = (results[0]);
+                heightMap.points.push({
+                    "x": x ,
+                    "y": y,
+                    "h": result.elevation
+
+                });
             } else {
                 alert('No results found');
             }
@@ -212,7 +251,7 @@ function toggleHeatmap() {
             x = Number(x0 + r * Math.cos(fi * Math.PI / 180) * 1.0).toFixed(6);
             y = Number(y0 + r * Math.sin(fi * Math.PI / 180) * 1.0).toFixed(6);
             var temp = new google.maps.LatLng(x, y);
-            pointH = changeH(temp, step);
+            pointH = getHeight(temp, step);
             arrTemp[step] = temp;
             step++;
         }

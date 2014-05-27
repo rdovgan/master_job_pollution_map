@@ -33,6 +33,9 @@ public class ApplicationController {
     private Map<Point2D, Integer> heightMap = null;
     private TreeMap<Point2D, Wind> windMap = null;
 
+    private int cellWidth = 1000;
+    private int cellCount = 20;
+
 
     public Wind getWindFromPolar(double degree, double speed) {
         if (speed <= 0) return new Wind(0, 0);
@@ -48,7 +51,7 @@ public class ApplicationController {
         double dx = 1. / cellWidth;
         for (int i = -cellCount / 2; i < cellCount / 2; i++)
             for (int j = -cellCount / 2; j < cellCount / 2; j++) {
-                windMap.put(new Point2D(x + i * dx, y + i * dx), getWindFromPolar(degree + random() * degreeChange, speed + random() * speedChange));
+                windMap.put(new Point2D(x + i * dx, y + j * dx), getWindFromPolar(degree + random() * degreeChange, speed + random() * speedChange));
             }
     }
 
@@ -59,7 +62,6 @@ public class ApplicationController {
 
     public void calculate() {
         //TODO:set variables
-        setHeightMap();
         model = new Model(variables, distribution);
         //TODO:get arr with results
     }
@@ -111,8 +113,41 @@ public class ApplicationController {
         } catch (JSONException e) {
             System.out.println("error");
         }
-        setRandomWindMap(distribution.getX0(),distribution.getY0(), windDegree, windSpeed);
-        variables.setT((int)round(tempC));
+        setRandomWindMap(distribution.getX0(), distribution.getY0(), windDegree, windSpeed);
+        variables.setT((int) round(tempC));
+        variables.setCellWidth(cellWidth);
+        return "success";
+    }
+
+    @RequestMapping(value = "/getConf", method = RequestMethod.POST)
+    public @ResponseBody String getConf(@RequestParam(value = "timeBegin", required = true) String timeBegin,
+                                        @RequestParam(value = "timeEnd", required = true) String timeEnd,
+                                        @RequestParam(value = "timeDelta", required = true) String timeDelta,
+                                        @RequestParam(value = "eps", required = true) String eps,
+                                        @RequestParam(value = "layerCount", required = true) String layerCount,
+                                        @RequestParam(value = "layerHeight", required = true) String layerHeigh, 
+                                        @RequestParam("cellCount")String cellCountStr,
+                                        @RequestParam("cellWidth")String cellWidthStr){
+        cellWidth = Integer.parseInt(cellWidthStr);
+        cellCount = Integer.parseInt(cellCountStr);
+        variables.setCellWidth(cellWidth);
+        model.setT1(Double.parseDouble(timeBegin));
+        model.setT2(Double.parseDouble(timeEnd));
+        model.setDelta(Double.parseDouble(timeDelta));
+        model.setEps(Double.parseDouble(eps));
+        model.setLayerCount(Integer.parseInt(layerCount));
+        model.setLayerHeight(Integer.parseInt(timeBegin));
+        return "success";
+    }
+
+    @RequestMapping(value = "/getHeightMap", method = RequestMethod.POST)
+    public @ResponseBody String getHeightMap(@RequestBody String data)throws UnsupportedEncodingException{
+        System.out.println(data);
+        try {
+            JSONArray jsonArr = new JSONArray(data);
+        } catch (JSONException e) {
+            System.out.println("error");
+        }
         return "success";
     }
 }

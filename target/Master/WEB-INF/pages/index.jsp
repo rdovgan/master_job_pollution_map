@@ -75,10 +75,10 @@
             </tr>
             <tr>
                 <td>
-                    <label for="x0">X0 </label><input type="text" id="x0" class="form-control" value="48.291174">
+                    <label for="x0">X<sub>0</sub> </label><input type="text" id="x0" class="form-control" value="48.291174">
                 </td>
                 <td>
-                    <label for="y0">Y0 </label><input type="text" id="y0" class="form-control" value="25.923094">
+                    <label for="y0">Y<sub>0</sub> </label><input type="text" id="y0" class="form-control" value="25.923094">
                 </td>
                 <td>
                     <label for="height">Height </label><input type="text" id="height" class="form-control" value="300">
@@ -96,6 +96,34 @@
                 <td>
                     <label for="sigZ">&sigma;<sub>z</sub> </label><input type="text" id="sigZ" class="form-control"
                                                                          value="7">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="timeBegin">Time begin </label><input type="text" id="timeBegin" class="form-control"
+                                                                         value="0">
+                </td>
+                <td>
+                    <label for="timeEnd">Time end </label><input type="text" id="timeEnd" class="form-control"
+                                                                         value="360">
+                </td>
+                <td>
+                    <label for="timeDelta">Time delta </label><input type="text" id="timeDelta" class="form-control"
+                                                                         value="60">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="eps">Epsilon </label><input type="text" id="eps" class="form-control"
+                                                                      value="0.01">
+                </td>
+                <td>
+                    <label for="layerCount">Layer count </label><input type="text" id="layerCount" class="form-control"
+                                                                         value="5">
+                </td>
+                <td>
+                    <label for="layerHeight">Layer height </label><input type="text" id="layerHeight" class="form-control"
+                                                                         value="200">
                 </td>
             </tr>
             <tr>

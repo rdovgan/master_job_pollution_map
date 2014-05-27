@@ -3,7 +3,7 @@ package edu.master.data;
 /**
  * Created by rdovgan on 5/12/14.
  */
-public class Point2D {
+public class Point2D implements Comparable<Point2D>{
 
     private double x;
     private double y;
@@ -56,5 +56,16 @@ public class Point2D {
         temp = Double.doubleToLongBits(y);
         result = 31 * result + (int) (temp ^ (temp >>> 32));
         return result;
+    }
+
+    @Override
+    public int compareTo(Point2D o) {
+        double s1 = Math.sqrt(x*x+y*y);
+        double s2 = Math.sqrt(o.getX()*o.getX()+o.getY()*o.getY());
+        if(s1>s2)
+            return 1;
+        if(s2>s1)
+            return -1;
+        return 0;
     }
 }
