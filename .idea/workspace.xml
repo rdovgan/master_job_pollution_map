@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="647904e6-09fa-4557-8cbf-0f196d173ae5" name="Default" comment="" />
+    <list default="true" id="647904e6-09fa-4557-8cbf-0f196d173ae5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="Master.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -69,7 +72,7 @@
           <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="9.076923" vertical-offset="440" max-vertical-offset="2584">
+                <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="2584">
                   <folding />
                 </state>
               </provider>
@@ -93,13 +96,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="ApplicationController.java" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="ApplicationController.java" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="55" column="5" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.009146341" vertical-offset="929" max-vertical-offset="2754">
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
+                <state line="55" column="5" selection-start="1833" selection-end="1833" vertical-scroll-proportion="-0.52667814" vertical-offset="935" max-vertical-offset="2448">
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -126,10 +127,10 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="253" column="23" selection-start="7687" selection-end="7687" vertical-scroll-proportion="0.24695122" vertical-offset="4139" max-vertical-offset="5032">
+                <state line="253" column="23" selection-start="7687" selection-end="7687" vertical-scroll-proportion="0.30636832" vertical-offset="4123" max-vertical-offset="5032">
                   <folding />
                 </state>
               </provider>
@@ -223,68 +224,36 @@
             <id />
           </State>
           <State>
-            <id>Abstraction issues</id>
-          </State>
-          <State>
-            <id>Android</id>
-          </State>
-          <State>
             <id>Android Lint</id>
           </State>
           <State>
-            <id>CSS</id>
+            <id>GSPGrailsGroovy</id>
           </State>
           <State>
-            <id>Class metrics</id>
+            <id>General</id>
           </State>
           <State>
-            <id>Code style issues</id>
-          </State>
-          <State>
-            <id>Declaration redundancy</id>
-          </State>
-          <State>
-            <id>Error handling</id>
-          </State>
-          <State>
-            <id>GeneralJavaScript</id>
-          </State>
-          <State>
-            <id>Google Web Toolkit issues</id>
+            <id>GrailsGroovy</id>
           </State>
           <State>
             <id>Groovy</id>
           </State>
           <State>
-            <id>JSP Inspections</id>
+            <id>J2ME Plugin</id>
           </State>
           <State>
-            <id>JavaScript</id>
+            <id>Maven</id>
           </State>
           <State>
-            <id>Method MetricsGroovy</id>
+            <id>Numeric issues</id>
           </State>
           <State>
-            <id>Method metrics</id>
+            <id>Plugin DevKit</id>
           </State>
           <State>
-            <id>Naming ConventionsGroovy</id>
-          </State>
-          <State>
-            <id>Naming conventions</id>
-          </State>
-          <State>
-            <id>OSGi</id>
-          </State>
-          <State>
-            <id>Security issues</id>
+            <id>XPath</id>
           </State>
         </expanded-state>
-        <selected-state>
-          <State>
-            <id>Abstraction issues</id>
-          </State>
-        </selected-state>
       </profile-state>
     </entry>
     <entry key="json">
@@ -302,7 +271,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -571,7 +540,7 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="preferences.applicationServers" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -585,7 +554,7 @@
       <recent name="C:\Users\rdovgan\IdeaProjects\Master\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.42">
+  <component name="RunManager" selected="Heroku Deployment.rdovgan-master">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -763,6 +732,9 @@
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <method />
     </configuration>
+    <configuration default="true" type="heroku-deploy" factoryName="Heroku Deployment">
+      <method />
+    </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
       <option name="BCName" value="" />
       <option name="launcherParameters">
@@ -907,9 +879,40 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
+    <configuration default="false" name="master-rdovgan" type="heroku-deploy" factoryName="Heroku Deployment" server-name="Heroku">
+      <deployment type="module" name="Master">
+        <settings>
+          <option name="deploymentName" value="master-rdovgan" />
+        </settings>
+      </deployment>
+      <RunnerSettings RunnerId="DeployToServer" />
+      <ConfigurationWrapper RunnerId="DeployToServer" />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Master:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="rdovgan-master" type="heroku-deploy" factoryName="Heroku Deployment" server-name="Heroku">
+      <deployment type="module" name="Master">
+        <settings>
+          <option name="defaultDeploymentName" value="false" />
+          <option name="deploymentName" value="master-rdovgan" />
+        </settings>
+      </deployment>
+      <RunnerSettings RunnerId="DeployToServer" />
+      <ConfigurationWrapper RunnerId="DeployToServer" />
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Master:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JUnit.AppTests" />
       <item index="1" class="java.lang.String" itemvalue="Tomcat Server.Tomcat 7.0.42" />
+      <item index="2" class="java.lang.String" itemvalue="Heroku Deployment.master-rdovgan" />
+      <item index="3" class="java.lang.String" itemvalue="Heroku Deployment.rdovgan-master" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -943,15 +946,18 @@
       <workItem from="1401098630484" duration="19781000" />
       <workItem from="1401181642206" duration="16232000" />
       <workItem from="1401283609574" duration="2092000" />
+      <workItem from="1401288149090" duration="217000" />
+      <workItem from="1401288390132" duration="1891000" />
+      <workItem from="1401290638679" duration="1349000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57491000" />
+    <option name="totallyTimeSpent" value="60948000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -969,18 +975,20 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2546875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14802982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24864864" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2478903" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1005,6 +1013,62 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3009">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="264" column="14" selection-start="7868" selection-end="7868" vertical-scroll-proportion="0.0" vertical-offset="4057" max-vertical-offset="5032">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Distribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="57" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="2482">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4012">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="5" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.0" vertical-offset="929" max-vertical-offset="2754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3009">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="253" column="23" selection-start="7687" selection-end="7687" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5032">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="47" column="25" selection-start="1694" selection-end="1694" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2533">
@@ -1029,9 +1093,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="5" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.0" vertical-offset="603" max-vertical-offset="2754">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1073,9 +1135,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="36" selection-start="738" selection-end="738" vertical-scroll-proportion="0.0" vertical-offset="1205" max-vertical-offset="2091">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,9 +1188,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="1348" selection-end="1348" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="544">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1168,17 +1226,17 @@
           <ID>MAVEN</ID>
           <OriginalElement>com.springapp:Master:1.0-SNAPSHOT</OriginalElement>
           <nodes>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/de.zeigermann.xml:xml-im-exporter:jar:1.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/de.zeigermann.xml:xml-im-exporter:jar:1.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1/com.google.code.findbugs:jsr305:jar:2.0.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.codehaus.plexus:plexus-component-annotations:jar:1.5.5</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8</node>
@@ -1199,8 +1257,8 @@
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/commons-logging:commons-logging-api:jar:1.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-artifact:jar:2.0.6</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-artifact:jar:2.0.6</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="" y="">javax.servlet.jsp:jsp-api:jar:2.1</node>
@@ -1209,8 +1267,8 @@
             <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/log4j:log4j:jar:1.2.12</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-plugin-api:jar:2.2.1</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
@@ -1285,9 +1343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.7403685" vertical-offset="0" max-vertical-offset="597">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.7403685" vertical-offset="0" max-vertical-offset="597" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -1322,16 +1378,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/data/Point3D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="35" selection-start="316" selection-end="316" vertical-scroll-proportion="0.5295082" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
+        <state line="19" column="35" selection-start="316" selection-end="316" vertical-scroll-proportion="0.5295082" vertical-offset="0" max-vertical-offset="610" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/data/Field.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="131" selection-end="131" vertical-scroll-proportion="0.19508196" vertical-offset="0" max-vertical-offset="610">
-          <folding />
-        </state>
+        <state line="8" column="13" selection-start="131" selection-end="131" vertical-scroll-proportion="0.19508196" vertical-offset="0" max-vertical-offset="610" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/data/Particle.java">
@@ -1343,9 +1395,7 @@
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="19" selection-start="3298" selection-end="3298" vertical-scroll-proportion="1.7790698" vertical-offset="0" max-vertical-offset="25653">
-          <folding />
-        </state>
+        <state line="86" column="19" selection-start="3298" selection-end="3298" vertical-scroll-proportion="1.7790698" vertical-offset="0" max-vertical-offset="25653" />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/libs/org.json-20120521.jar!/org/json/JSONObject.class">
@@ -1399,38 +1449,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/data/Point2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="178" selection-end="178" vertical-scroll-proportion="0.29668412" vertical-offset="0" max-vertical-offset="1173">
-          <folding />
-        </state>
+        <state line="10" column="11" selection-start="178" selection-end="178" vertical-scroll-proportion="0.29668412" vertical-offset="0" max-vertical-offset="1173" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Wind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="1" selection-start="218" selection-end="218" vertical-scroll-proportion="0.38568935" vertical-offset="0" max-vertical-offset="573">
-          <folding />
-        </state>
+        <state line="13" column="1" selection-start="218" selection-end="218" vertical-scroll-proportion="0.38568935" vertical-offset="0" max-vertical-offset="573" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="9.076923" vertical-offset="440" max-vertical-offset="2584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="14" selection-start="7868" selection-end="7868" vertical-scroll-proportion="0.0" vertical-offset="4057" max-vertical-offset="5032">
+        <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="2584">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="5" selection-start="1833" selection-end="1833" vertical-scroll-proportion="0.009146341" vertical-offset="929" max-vertical-offset="2754">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="55" column="5" selection-start="1833" selection-end="1833" vertical-scroll-proportion="-0.52667814" vertical-offset="935" max-vertical-offset="2448">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="253" column="23" selection-start="7687" selection-end="7687" vertical-scroll-proportion="0.30636832" vertical-offset="4123" max-vertical-offset="5032">
+          <folding />
         </state>
       </provider>
     </entry>
