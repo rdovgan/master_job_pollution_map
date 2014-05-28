@@ -65,7 +65,6 @@ $(document)
         sigY = $('#sigY').val();
         sigZ = $('#sigZ').val();
         atmosphere = $('#atmosphere').val();
-        temperature = $('#temperature').val();
 
         timeBegin = $('#timeBegin').val();
         timeEnd = $('#timeEnd').val();
@@ -82,7 +81,7 @@ $(document)
                 type: "post",
                 url: "getValues",
                 data: "output=" + output + "&x0=" + x0 + "&y0=" + y0 + "&height=" + height + "&sigX=" + sigX + "&sigY=" + sigY + "&sigZ=" +
-                    sigZ + "&atmosphere=" + atmosphere + "&temperature=" + temperature,
+                    sigZ + "&atmosphere=" + atmosphere,
                 success: function (response) {
                 },
                 error: function (e) {
@@ -113,6 +112,16 @@ $(document)
                 success: function (response) {
                 },
                 error : function(e){
+                    console.error(e);
+                }
+            });
+            $.ajax({
+                type: "post",
+                url: "getResult",
+                success: function (response) {
+
+                },
+                error: function (e) {
                     console.error(e);
                 }
             });

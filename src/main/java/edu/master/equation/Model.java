@@ -14,7 +14,7 @@ public class Model {
     private double delta = 1;
 
     private int layerCount = 5;
-    private int layerHeight = 100;
+    private int layerHeight = 200;
 
     private Variables vars = new Variables();
     private Distribution distr = new Distribution();
