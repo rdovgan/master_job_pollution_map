@@ -2,7 +2,90 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="647904e6-09fa-4557-8cbf-0f196d173ae5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java" afterPath="$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master.war" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Field.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Particle.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Point2D.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Point3D.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Distribution.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Model.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Table$TwoDoubles.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Table.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Variables.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Wind.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\main\ApplicationController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\main\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\commons-httpclient-2.0.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\commons-logging-api-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\google-collections-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\jdom-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\jsr305-2.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\log4j-1.2.12.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-artifact-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-artifact-manager-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-compiler-plugin-3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-core-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-error-diagnostics-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-model-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-monitor-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-api-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-descriptor-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-parameter-documenter-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-registry-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-profile-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-project-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-repository-metadata-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-settings-2.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-shared-incremental-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-shared-utils-0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-toolchain-1.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\org.json-20120521.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-classworlds-2.2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-compiler-api-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-compiler-javac-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-compiler-manager-2.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-component-annotations-1.5.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-container-default-1.5.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-utils-1.5.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\servlet-api-2.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\slide-webdavlib-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-aop-3.2.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-beans-3.2.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-context-3.2.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-core-3.2.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-expression-3.2.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-web-3.2.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-webmvc-3.2.0.RELEASE.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\wagon-provider-api-1.0-beta-2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\wagon-webdav-1.0-beta-2.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\xbean-reflect-3.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\xml-im-exporter-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\mvc-dispatcher-servlet.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\pages\index.jsp" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\resources\main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Field.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Particle.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Point2D.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Point3D.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Distribution.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Model.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Table$TwoDoubles.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Table.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Variables.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Wind.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\main\ApplicationController.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\main\Main.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\maven-archiver\pom.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\surefire-reports\TEST-edu.master.main.AppTests.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\surefire-reports\edu.master.main.AppTests.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\test-classes\edu\master\main\AppTests.class" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\conf\logging.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\conf\tomcat-users.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\conf\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\logs\access_log.2014-05-23" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Master.iws" />
@@ -108,7 +191,7 @@
           <file leaf-file-name="AppTests.java" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="2" selection-start="402" selection-end="402" vertical-scroll-proportion="0.53125" vertical-offset="0" max-vertical-offset="544">
+                <state line="21" column="35" selection-start="612" selection-end="612" vertical-scroll-proportion="0.8581731" vertical-offset="0" max-vertical-offset="544">
                   <folding />
                 </state>
               </provider>
@@ -139,7 +222,7 @@
           <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="253" column="23" selection-start="7687" selection-end="7687" vertical-scroll-proportion="0.4198113" vertical-offset="4123" max-vertical-offset="5032">
+                <state line="276" column="8" selection-start="8156" selection-end="8156" vertical-scroll-proportion="1.3419812" vertical-offset="4123" max-vertical-offset="5032">
                   <folding />
                 </state>
               </provider>
@@ -945,12 +1028,12 @@
       <workItem from="1401283609574" duration="2092000" />
       <workItem from="1401288149090" duration="217000" />
       <workItem from="1401288390132" duration="1891000" />
-      <workItem from="1401290638679" duration="1903000" />
+      <workItem from="1401290638679" duration="2320000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61502000" />
+    <option name="totallyTimeSpent" value="61919000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -977,10 +1060,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14909478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14909478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14802982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49945945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49945945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1452,13 +1535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="14" selection-start="7868" selection-end="7868" vertical-scroll-proportion="0.0" vertical-offset="4057" max-vertical-offset="5032">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="14" column="28" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2754">
@@ -1466,9 +1542,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="264" column="14" selection-start="7868" selection-end="7868" vertical-scroll-proportion="0.0" vertical-offset="4057" max-vertical-offset="5032">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="2" selection-start="402" selection-end="402" vertical-scroll-proportion="0.53125" vertical-offset="0" max-vertical-offset="544">
+        <state line="21" column="35" selection-start="612" selection-end="612" vertical-scroll-proportion="0.8581731" vertical-offset="0" max-vertical-offset="544">
           <folding />
         </state>
       </provider>
