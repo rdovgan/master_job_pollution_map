@@ -12,7 +12,7 @@ var step;
 step = 0;
 var Cmm, Cmax, Xmm, Xmax;
 var bool = 1;
-var pointH = [];
+var pointH = {};
 var marker;
 
 var cellCount = 20;
@@ -23,7 +23,7 @@ var timeBegin, timeEnd, timeDelta, eps, layerCount, layerHeight;
 
 var json = '{"data":{"current_condition":[{"temp_C": "13", "winddirDegree": "310","windspeedKmph":"15"}]}}';
 var jsonUrl = "http://api.worldweatheronline.com/free/v1/weather.ashx?q="+x0+"%3B"+y0+"%3B&format=json&num_of_days=1&key=ks9t3qx33mvme6t6238vfu56";
-var heightMap ={points: []};
+var heightMap =[];
 
 function getJSON() {
     $.ajax({
@@ -104,11 +104,10 @@ $(document)
         });
 
         $('#getResult').click(function () {
-            alert(JSON.stringify(heightMap));
             $.ajax({
                 type: "post",
                 url: "getHeightMap",
-                data: heightMap,
+                data: JSON.stringify(heightMap),
                 contentType: "application/json",
                 dataType: "json",
                 success: function (response) {
@@ -174,10 +173,10 @@ function getHeight(x,y) {
         if (status == google.maps.ElevationStatus.OK) {
             if (results[0]) {
                 var result = (results[0]);
-                heightMap.points.push({
-                    "x": x ,
-                    "y": y,
-                    "h": result.elevation
+                heightMap.push({
+                    x : x ,
+                    y : y,
+                    h : result.elevation
 
                 });
             } else {

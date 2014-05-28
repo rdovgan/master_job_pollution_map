@@ -55,11 +55,6 @@ public class ApplicationController {
             }
     }
 
-    public void setHeightMap() {
-        heightMap = new TreeMap<Point2D, Integer>();
-        //TODO:set map with data
-    }
-
     public void calculate() {
         //TODO:set variables
         model = new Model(variables, distribution);
@@ -142,9 +137,18 @@ public class ApplicationController {
 
     @RequestMapping(value = "/getHeightMap", method = RequestMethod.POST)
     public @ResponseBody String getHeightMap(@RequestBody String data)throws UnsupportedEncodingException{
-        System.out.println(data);
+        data = URLDecoder.decode(data, "UTF-8");
         try {
             JSONArray jsonArr = new JSONArray(data);
+            for(int i=0; i<jsonArr.length(); i++){
+                JSONObject object = jsonArr.getJSONObject(i);
+                double x = round(Double.parseDouble(object.get("x").toString())*cellWidth)*(1./cellWidth);
+                double y = round(Double.parseDouble(object.get("y").toString())*cellWidth)*(1./cellWidth);
+                int h = (int)round(Double.parseDouble(object.get("h").toString()));
+                System.out.println(x+"\t"+y+"\t"+h);
+                Point2D point = new Point2D(x,y);
+                heightMap.put(point, h);
+            }
         } catch (JSONException e) {
             System.out.println("error");
         }
