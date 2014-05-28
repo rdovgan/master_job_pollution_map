@@ -19,6 +19,8 @@
 <div id="1map-canvas" style="height: 450px; width: 100%;"></div>
 <br/>
 
+
+
 <div class="container col-md-9 col-md-offset-3">
 
     <div id="input">
@@ -140,5 +142,6 @@
         </table>
     </form>
 </div>
+
 </body>
 </html>
