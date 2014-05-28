@@ -19,6 +19,14 @@ public class Model {
     private Variables vars = new Variables();
     private Distribution distr = new Distribution();
 
+    public Model(){
+    }
+
+    public Model(Variables vars, Distribution distr){
+        this.vars = vars;
+        this.distr = distr;
+    }
+
     public int getHeightLayer(int layerNumber, int height) {
         int layersHeight = (layerNumber+1) * layerHeight;
         int result = layersHeight - height;
@@ -156,4 +164,67 @@ public class Model {
         return totalResult;
     }
 
+    public double getT1() {
+        return t1;
+    }
+
+    public void setT1(double t1) {
+        this.t1 = t1;
+    }
+
+    public double getT2() {
+        return t2;
+    }
+
+    public void setT2(double t2) {
+        this.t2 = t2;
+    }
+
+    public double getDelta() {
+        return delta;
+    }
+
+    public void setDelta(double delta) {
+        this.delta = delta;
+    }
+
+    public Variables getVars() {
+        return vars;
+    }
+
+    public void setVars(Variables vars) {
+        this.vars = vars;
+    }
+
+    public Distribution getDistr() {
+        return distr;
+    }
+
+    public void setDistr(Distribution distr) {
+        this.distr = distr;
+    }
+
+    public int getLayerHeight() {
+        return layerHeight;
+    }
+
+    public void setLayerHeight(int layerHeight) {
+        this.layerHeight = layerHeight;
+    }
+
+    public int getLayerCount() {
+        return layerCount;
+    }
+
+    public void setLayerCount(int layerCount) {
+        this.layerCount = layerCount;
+    }
+
+    public double getEps() {
+        return eps;
+    }
+
+    public void setEps(double eps) {
+        this.eps = eps;
+    }
 }

@@ -2,11 +2,10 @@ package edu.master.equation;
 
 import edu.master.data.Point2D;
 
-import static java.lang.Math.*;
-
-import java.util.HashMap;
 import java.util.Map;
 import java.util.TreeMap;
+
+import static java.lang.Math.*;
 
 /**
  * Created by rdovgan on 5/12/14.
@@ -19,6 +18,8 @@ public class Variables {
     private final double koefCp = 1.3;
     private final double t0 = 273;
 
+    private int cellWidth = 1000;
+
     private TreeMap<Point2D, Wind> windMap = null;
     private Map<Point2D, Integer> heightMap = null;
 
@@ -29,15 +30,7 @@ public class Variables {
         heightMap = new TreeMap<Point2D, Integer>();
     }
 
-    public class Wind{
-        public double u;
-        public double v;
 
-        public Wind(double u, double v){
-            this.u = u;
-            this.v = v;
-        }
-    }
 
     public double getQe(double x, double y, double z){
         return getWind(x,y,z)*koefCp*(t0 / t)*(t-t0);
@@ -49,6 +42,8 @@ public class Variables {
 
     public Wind getWind(double x, double y){
         if(windMap==null)   return new Wind(1,1);
+        x = round(x* cellWidth)/ cellWidth;
+        y = round(y* cellWidth)/ cellWidth;
         Point2D point = new Point2D(x,y);
         Wind wind = windMap.get(point);
         if(wind == null){
@@ -62,13 +57,6 @@ public class Variables {
             return high.getValue();
         }
         return wind;
-    }
-
-    public Wind getWindFromJSON(double degree, double speed){
-        if(speed<=0)return new Wind(0,0);
-        double u = speed * cos(toRadians(degree));
-        double v = speed * sin(toRadians(degree));
-        return new Wind(u,v);
     }
 
     public double getU2D(double x, double y) {
@@ -170,5 +158,13 @@ public class Variables {
 
     public void setT(int t) {
         this.t = t;
+    }
+
+    public int getCellWidth() {
+        return cellWidth;
+    }
+
+    public void setCellWidth(int cellWidth) {
+        this.cellWidth = cellWidth;
     }
 }

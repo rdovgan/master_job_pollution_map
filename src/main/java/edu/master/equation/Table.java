@@ -17,6 +17,8 @@ public final class Table {
     private static Map<Character, Double> k = new HashMap<Character, Double>();
     private static Map<Character, Double> r = new HashMap<Character, Double>();
 
+    public static double speedChange = 0.8;
+    public static double degreeChange = 20;
 
     public class TwoDoubles{
         public double d1;
