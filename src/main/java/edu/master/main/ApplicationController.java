@@ -17,8 +17,9 @@ import java.net.URLDecoder;
 import java.util.Map;
 import java.util.TreeMap;
 
+import static edu.master.equation.Table.degreeChange;
+import static edu.master.equation.Table.speedChange;
 import static java.lang.Math.*;
-import static edu.master.equation.Table.*;
 
 
 @Controller

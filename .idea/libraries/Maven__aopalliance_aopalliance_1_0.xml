@@ -2,7 +2,6 @@
   <library name="Maven: aopalliance:aopalliance:1.0">
     <CLASSES>
       <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0.jar!/" />
-      <root url="jar://$PROJECT_DIR$/libs/org.json-20120521.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$MAVEN_REPOSITORY$/aopalliance/aopalliance/1.0/aopalliance-1.0-javadoc.jar!/" />

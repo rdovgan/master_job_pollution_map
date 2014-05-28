@@ -2,90 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="647904e6-09fa-4557-8cbf-0f196d173ae5" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master.war" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Field.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Particle.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Point2D.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Point3D.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Distribution.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Model.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Table$TwoDoubles.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Table.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Variables.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Wind.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\main\ApplicationController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\main\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\commons-httpclient-2.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\commons-logging-api-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\google-collections-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\jdom-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\jsr305-2.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\log4j-1.2.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-artifact-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-artifact-manager-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-compiler-plugin-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-core-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-error-diagnostics-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-model-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-monitor-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-api-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-descriptor-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-parameter-documenter-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-registry-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-profile-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-project-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-repository-metadata-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-settings-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-shared-incremental-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-shared-utils-0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-toolchain-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\org.json-20120521.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-classworlds-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-compiler-api-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-compiler-javac-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-compiler-manager-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-component-annotations-1.5.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-container-default-1.5.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-utils-1.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\servlet-api-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\slide-webdavlib-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-aop-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-beans-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-context-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-core-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-expression-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-web-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-webmvc-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\wagon-provider-api-1.0-beta-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\wagon-webdav-1.0-beta-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\xbean-reflect-3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\xml-im-exporter-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\mvc-dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\pages\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\resources\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Field.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Particle.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Point2D.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Point3D.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Distribution.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Model.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Table$TwoDoubles.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Table.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Variables.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Wind.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\main\ApplicationController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\main\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\surefire-reports\TEST-edu.master.main.AppTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\surefire-reports\edu.master.main.AppTests.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\test-classes\edu\master\main\AppTests.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\conf\logging.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\conf\tomcat-users.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\conf\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\logs\access_log.2014-05-23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\libs\org.json-20120521.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\src\test\java\edu\master\main\AppTests.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java" afterPath="$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Master.iml" afterPath="$PROJECT_DIR$/Master.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Master_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Master_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Master.iws" />
@@ -155,7 +78,7 @@
           <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="2584">
+                <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="9.076923" vertical-offset="440" max-vertical-offset="2584">
                   <folding />
                 </state>
               </provider>
@@ -182,17 +105,630 @@
           <file leaf-file-name="ApplicationController.java" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="28" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2754">
+                <state line="7" column="16" selection-start="211" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AppTests.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java">
+          <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="35" selection-start="612" selection-end="612" vertical-scroll-proportion="0.8581731" vertical-offset="0" max-vertical-offset="544">
+                <state line="64" column="27" selection-start="2129" selection-end="2129" vertical-scroll-proportion="0.0" vertical-offset="776" max-vertical-offset="1819">
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="MAVEN/com.springapp:Master:1.0-SNAPSHOT" pinned="false" current="true" current-in-tab="true">
+            <entry file="uml://MAVEN/com.springapp:Master:1.0-SNAPSHOT">
+              <provider selected="true" editor-type-id="UmlEditorProvider">
+                <state>
+                  <ID>MAVEN</ID>
+                  <OriginalElement>com.springapp:Master:1.0-SNAPSHOT</OriginalElement>
+                  <nodes>
+                    <node x="389.0" y="1444.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9</node>
+                    <node x="664.0" y="1064.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/de.zeigermann.xml:xml-im-exporter:jar:1.1</node>
+                    <node x="523.0" y="1482.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
+                    <node x="214.0" y="228.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
+                    <node x="424.0" y="2128.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1/com.google.code.findbugs:jsr305:jar:2.0.1</node>
+                    <node x="460.0" y="2280.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.codehaus.plexus:plexus-component-annotations:jar:1.5.5</node>
+                    <node x="632.0" y="950.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+                    <node x="268.0" y="2394.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2</node>
+                    <node x="450.0" y="2470.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5</node>
+                    <node x="569.0" y="1748.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
+                    <node x="523.0" y="1520.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
+                    <node x="389.0" y="950.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9</node>
+                    <node x="436.0" y="2432.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
+                    <node x="436.0" y="2394.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8</node>
+                    <node x="97.0" y="38.0">org.springframework:spring-web:jar:3.2.0.RELEASE</node>
+                    <node x="97.0" y="760.0">junit:junit:jar:4.8.2</node>
+                    <node x="233.0" y="570.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-web:jar:3.2.0.RELEASE</node>
+                    <node x="389.0" y="1330.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2</node>
+                    <node x="424.0" y="2318.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8</node>
+                    <node x="389.0" y="1824.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9</node>
+                    <node x="214.0" y="190.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+                    <node x="588.0" y="1368.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+                    <node x="527.0" y="1102.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/commons-logging:commons-logging:jar:1.0.4</node>
+                    <node x="268.0" y="2318.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
+                    <node x="268.0" y="2356.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2</node>
+                    <node x="268.0" y="2052.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0</node>
+                    <node x="389.0" y="874.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9</node>
+                    <node x="213.0" y="684.0">org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-webmvc:jar:3.2.0.RELEASE</node>
+                    <node x="692.0" y="1596.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+                    <node x="579.0" y="2584.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/commons-logging:commons-logging-api:jar:1.1</node>
+                    <node x="523.0" y="1558.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9</node>
+                    <node x="460.0" y="2242.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
+                    <node x="411.0" y="2090.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-artifact:jar:2.0.6</node>
+                    <node x="389.0" y="1178.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
+                    <node x="519.0" y="1216.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+                    <node x="97.0" y="456.0">javax.servlet.jsp:jsp-api:jar:2.1</node>
+                    <node x="523.0" y="1596.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9</node>
+                    <node x="411.0" y="2052.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-core:jar:2.0.6</node>
+                    <node x="348.0" y="114.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
+                    <node x="579.0" y="2546.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/log4j:log4j:jar:1.2.12</node>
+                    <node x="664.0" y="988.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2</node>
+                    <node x="97.0" y="418.0">javax.servlet:servlet-api:jar:2.5</node>
+                    <node x="214.0" y="342.0">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+                    <node x="460.0" y="2166.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-plugin-api:jar:2.2.1</node>
+                    <node x="329.0" y="266.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+                    <node x="452.0" y="2356.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
+                    <node x="527.0" y="1140.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2</node>
+                    <node x="389.0" y="1976.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-monitor:jar:2.0.9</node>
+                    <node x="569.0" y="1786.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
+                    <node x="527.0" y="912.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+                    <node x="389.0" y="1368.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9</node>
+                    <node x="389.0" y="1748.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9</node>
+                    <node x="523.0" y="1634.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+                    <node x="570.0" y="1938.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2</node>
+                    <node x="233.0" y="646.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+                    <node x="97.0" y="0.0">org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+                    <node x="389.0" y="988.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2</node>
+                    <node x="570.0" y="1900.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
+                    <node x="389.0" y="1292.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
+                    <node x="214.0" y="380.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+                    <node x="450.0" y="2508.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-classworlds:jar:2.2.2</node>
+                    <node x="460.0" y="2204.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-core:jar:2.2.1</node>
+                    <node x="215.0" y="0.0">org.springframework:spring-core:jar:3.2.0.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
+                    <node x="348.0" y="152.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+                    <node x="450.0" y="2546.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4</node>
+                    <node x="214.0" y="38.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE</node>
+                    <node x="403.0" y="836.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+                    <node x="329.0" y="304.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+                    <node x="233.0" y="494.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE</node>
+                    <node x="450.0" y="2660.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/junit:junit:jar:3.8.2</node>
+                    <node x="268.0" y="874.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9</node>
+                    <node x="547.0" y="1330.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2/org.codehaus.plexus:plexus-utils:jar:1.0.4</node>
+                    <node x="268.0" y="2470.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5</node>
+                    <node x="268.0" y="2166.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1</node>
+                    <node x="570.0" y="1862.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+                    <node x="450.0" y="2622.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/com.google.collections:google-collections:jar:1.0</node>
+                    <node x="523.0" y="1672.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
+                    <node x="527.0" y="988.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1</node>
+                    <node x="664.0" y="1026.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/jdom:jdom:jar:1.0</node>
+                    <node x="233.0" y="532.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+                    <node x="329.0" y="228.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+                    <node x="348.0" y="38.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+                    <node x="268.0" y="798.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
+                    <node x="213.0" y="722.0">org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+                    <node x="389.0" y="2014.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+                    <node x="389.0" y="1406.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-error-diagnostics:jar:2.0.9</node>
+                    <node x="389.0" y="1254.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
+                    <node x="0.0" y="0.0">com.springapp:Master:1.0-SNAPSHOT</node>
+                    <node x="97.0" y="2698.0">org.json:json:jar:20080701</node>
+                    <node x="570.0" y="1824.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9</node>
+                    <node x="517.0" y="1254.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+                    <node x="382.0" y="608.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+                    <node x="233.0" y="608.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
+                    <node x="821.0" y="988.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2/commons-logging:commons-logging:jar:1.0.3</node>
+                    <node x="523.0" y="1444.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9</node>
+                    <node x="389.0" y="1710.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
+                    <node x="340.0" y="380.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+                    <node x="97.0" y="494.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE</node>
+                    <node x="519.0" y="1178.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
+                    <node x="527.0" y="874.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
+                    <node x="97.0" y="684.0">org.springframework:spring-test:jar:3.2.0.RELEASE</node>
+                    <node x="97.0" y="798.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1</node>
+                    <node x="268.0" y="2128.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
+                    <node x="268.0" y="836.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9</node>
+                    <node x="348.0" y="76.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
+                  </nodes>
+                  <notes />
+                  <edges>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-error-diagnostics:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1420.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-core:jar:2.2.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="349.0" y="2218.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2">
+                      <point x="0.0" y="0.0" />
+                      <point x="167.5" y="2370.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1344.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="256.5" y="318.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0">
+                      <point x="0.0" y="0.0" />
+                      <point x="167.5" y="2066.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="140.5" y="242.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/de.zeigermann.xml:xml-im-exporter:jar:1.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="580.5" y="1078.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1382.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="464.5" y="1876.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1002.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="441.0" y="1496.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-plugin-api:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/commons-logging:commons-logging:jar:1.0.4">
+                      <point x="0.0" y="0.0" />
+                      <point x="443.0" y="1116.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1838.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1192.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="266.0" y="90.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="167.5" y="888.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="167.5" y="2142.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="464.0" y="1800.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-classworlds:jar:2.2.2">
+                      <point x="0.0" y="0.0" />
+                      <point x="344.0" y="2522.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="150.0" y="660.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-plugin-api:jar:2.2.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="150.0" y="546.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="33.5" y="812.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="441.0" y="1534.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2/commons-logging:commons-logging:jar:1.0.3">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/commons-logging:commons-logging-api:jar:1.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="499.5" y="2598.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/junit:junit:jar:3.8.2">
+                      <point x="0.0" y="0.0" />
+                      <point x="344.0" y="2674.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1/com.google.code.findbugs:jsr305:jar:2.0.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="266.0" y="166.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="33.5" y="508.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="464.5" y="1914.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.json:json:jar:20080701">
+                      <point x="0.0" y="0.0" />
+                      <point x="33.5" y="2712.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-test:jar:3.2.0.RELEASE" target="org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="140.0" y="736.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="439.0" y="1230.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="441.0" y="1610.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1306.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-core:jar:2.0.6">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5">
+                      <point x="0.0" y="0.0" />
+                      <point x="167.5" y="2484.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="256.5" y="280.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+                      <point x="0.0" y="0.0" />
+                      <point x="140.5" y="356.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="com.springapp:Master:1.0-SNAPSHOT" target="junit:junit:jar:4.8.2">
+                      <point x="0.0" y="0.0" />
+                      <point x="33.5" y="774.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-web:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="150.0" y="584.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1724.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/log4j:log4j:jar:1.2.12">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.codehaus.plexus:plexus-component-annotations:jar:1.5.5">
+                      <point x="0.0" y="0.0" />
+                      <point x="349.0" y="2294.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2">
+                      <point x="0.0" y="0.0" />
+                      <point x="443.0" y="1154.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1762.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2">
+                      <point x="0.0" y="0.0" />
+                      <point x="464.5" y="1952.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="com.springapp:Master:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="33.5" y="470.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="2028.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="443.0" y="926.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2/org.codehaus.plexus:plexus-utils:jar:1.0.4">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2">
+                      <point x="0.0" y="0.0" />
+                      <point x="167.5" y="2408.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="167.5" y="2180.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2">
+                      <point x="0.0" y="0.0" />
+                      <point x="167.5" y="2332.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-artifact:jar:2.0.6">
+                      <point x="0.0" y="0.0" />
+                      <point x="324.5" y="2104.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="441.0" y="1572.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-core:jar:3.2.0.RELEASE" target="org.springframework:spring-core:jar:3.2.0.RELEASE/commons-logging:commons-logging:jar:1.1.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/com.google.collections:google-collections:jar:1.0">
+                      <point x="0.0" y="0.0" />
+                      <point x="344.0" y="2636.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1458.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4">
+                      <point x="0.0" y="0.0" />
+                      <point x="344.0" y="2560.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="964.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2">
+                      <point x="0.0" y="0.0" />
+                      <point x="337.0" y="2446.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="33.5" y="52.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-monitor:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1990.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="33.5" y="698.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="266.0" y="128.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="349.0" y="2256.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-test:jar:3.2.0.RELEASE" target="org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-webmvc:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="140.5" y="204.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="140.5" y="394.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="441.0" y="1648.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="150.0" y="622.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="167.5" y="850.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/jdom:jdom:jar:1.0">
+                      <point x="0.0" y="0.0" />
+                      <point x="580.5" y="1040.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="441.0" y="1686.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+                      <point x="0.0" y="0.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="com.springapp:Master:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
+                      <point x="0.0" y="0.0" />
+                      <point x="33.5" y="432.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                    <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9">
+                      <point x="0.0" y="0.0" />
+                      <point x="313.5" y="1268.0" />
+                      <point x="0.0" y="0.0" />
+                    </edge>
+                  </edges>
+                  <settings layout="Hierarchic Group" zoom="0.6766205389657682" x="324.1291711517763" y="679.475780409042" />
+                  <SelectedNodes>
+                    <node>com.springapp:Master:1.0-SNAPSHOT</node>
+                  </SelectedNodes>
+                  <Categories />
+                  <VISIBILITY>All</VISIBILITY>
                 </state>
               </provider>
             </entry>
@@ -222,7 +758,7 @@
           <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="276" column="8" selection-start="8156" selection-end="8156" vertical-scroll-proportion="1.3419812" vertical-offset="4123" max-vertical-offset="5032">
+                <state line="276" column="8" selection-start="8156" selection-end="8156" vertical-scroll-proportion="0.979346" vertical-offset="4123" max-vertical-offset="5032">
                   <folding />
                 </state>
               </provider>
@@ -243,7 +779,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/data/Field.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/data/Particle.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/main/Main.java" />
@@ -257,8 +792,9 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/data/Point2D.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/main.js" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java" />
       </list>
     </option>
@@ -319,13 +855,40 @@
             <id />
           </State>
           <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
             <id>Android Lint</id>
+          </State>
+          <State>
+            <id>CSS</id>
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Declaration redundancy</id>
+          </State>
+          <State>
+            <id>Error handling</id>
           </State>
           <State>
             <id>GSPGrailsGroovy</id>
           </State>
           <State>
             <id>General</id>
+          </State>
+          <State>
+            <id>GeneralJavaScript</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit issues</id>
           </State>
           <State>
             <id>GrailsGroovy</id>
@@ -337,18 +900,47 @@
             <id>J2ME Plugin</id>
           </State>
           <State>
+            <id>JSP Inspections</id>
+          </State>
+          <State>
+            <id>JavaScript</id>
+          </State>
+          <State>
             <id>Maven</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metrics</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
+          </State>
+          <State>
+            <id>Naming conventions</id>
           </State>
           <State>
             <id>Numeric issues</id>
           </State>
           <State>
+            <id>OSGi</id>
+          </State>
+          <State>
             <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Security issues</id>
           </State>
           <State>
             <id>XPath</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
     <entry key="json">
@@ -427,14 +1019,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -635,7 +1219,7 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="preferences.applicationServers" />
+    <property name="options.lastSelected" value="preferences.keymap" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -1028,12 +1612,12 @@
       <workItem from="1401283609574" duration="2092000" />
       <workItem from="1401288149090" duration="217000" />
       <workItem from="1401288390132" duration="1891000" />
-      <workItem from="1401290638679" duration="2320000" />
+      <workItem from="1401290638679" duration="3560000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61919000" />
+    <option name="totallyTimeSpent" value="63159000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1060,10 +1644,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14909478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14909478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14802982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49945945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3956757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1300,137 +1884,9 @@
         <state line="162" column="0" selection-start="6026" selection-end="6026" vertical-scroll-proportion="0.33272728" vertical-offset="1942" max-vertical-offset="10149" />
       </provider>
     </entry>
-    <entry file="uml://MAVEN/com.springapp:Master:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>com.springapp:Master:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/de.zeigermann.xml:xml-im-exporter:jar:1.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1/com.google.code.findbugs:jsr305:jar:2.0.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.codehaus.plexus:plexus-component-annotations:jar:1.5.5</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE</node>
-            <node x="" y="">junit:junit:jar:4.8.2</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-web:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/commons-logging:commons-logging:jar:1.0.4</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9</node>
-            <node x="" y="">org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-webmvc:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/commons-logging:commons-logging-api:jar:1.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-artifact:jar:2.0.6</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
-            <node x="" y="">javax.servlet.jsp:jsp-api:jar:2.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-core:jar:2.0.6</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/log4j:log4j:jar:1.2.12</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2</node>
-            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-plugin-api:jar:2.2.1</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-monitor:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-core:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-classworlds:jar:2.2.2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-core:jar:2.2.1</node>
-            <node x="" y="">org.springframework:spring-core:jar:3.2.0.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/junit:junit:jar:3.8.2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2/org.codehaus.plexus:plexus-utils:jar:1.0.4</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/com.google.collections:google-collections:jar:1.0</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/jdom:jdom:jar:1.0</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
-            <node x="" y="">org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-error-diagnostics:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
-            <node x="" y="">com.springapp:Master:1.0-SNAPSHOT</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2/commons-logging:commons-logging:jar:1.0.3</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.springframework:spring-webmvc:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
-            <node x="" y="">org.springframework:spring-test:jar:3.2.0.RELEASE</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9</node>
-            <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="0.5931314623338256" x="665.0" y="577.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.7403685" vertical-offset="0" max-vertical-offset="597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="57" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
@@ -1467,16 +1923,6 @@
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/lang/Math.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="19" selection-start="3298" selection-end="3298" vertical-scroll-proportion="1.7790698" vertical-offset="0" max-vertical-offset="25653" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/org.json-20120521.jar!/org/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.34750462" vertical-offset="475" max-vertical-offset="2618" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/org.json-20120521.jar!/org/json/JSONArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="554" selection-end="554" vertical-scroll-proportion="0.3469751" vertical-offset="77" max-vertical-offset="1887" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java">
@@ -1530,14 +1976,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="2584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2754">
+        <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="9.076923" vertical-offset="440" max-vertical-offset="2584">
           <folding />
         </state>
       </provider>
@@ -1549,10 +1988,628 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="35" selection-start="612" selection-end="612" vertical-scroll-proportion="0.8581731" vertical-offset="0" max-vertical-offset="544">
+        <state line="7" column="16" selection-start="211" selection-end="220" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2771">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="27" selection-start="2129" selection-end="2129" vertical-scroll-proportion="0.0" vertical-offset="776" max-vertical-offset="1819">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.springapp:Master:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.springapp:Master:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="389.0" y="1444.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9</node>
+            <node x="664.0" y="1064.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/de.zeigermann.xml:xml-im-exporter:jar:1.1</node>
+            <node x="523.0" y="1482.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
+            <node x="214.0" y="228.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
+            <node x="424.0" y="2128.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1/com.google.code.findbugs:jsr305:jar:2.0.1</node>
+            <node x="460.0" y="2280.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.codehaus.plexus:plexus-component-annotations:jar:1.5.5</node>
+            <node x="632.0" y="950.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+            <node x="268.0" y="2394.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2</node>
+            <node x="450.0" y="2470.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5</node>
+            <node x="569.0" y="1748.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
+            <node x="523.0" y="1520.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
+            <node x="389.0" y="950.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9</node>
+            <node x="436.0" y="2432.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
+            <node x="436.0" y="2394.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8</node>
+            <node x="97.0" y="38.0">org.springframework:spring-web:jar:3.2.0.RELEASE</node>
+            <node x="97.0" y="760.0">junit:junit:jar:4.8.2</node>
+            <node x="233.0" y="570.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-web:jar:3.2.0.RELEASE</node>
+            <node x="389.0" y="1330.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2</node>
+            <node x="424.0" y="2318.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8</node>
+            <node x="389.0" y="1824.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9</node>
+            <node x="214.0" y="190.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="588.0" y="1368.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+            <node x="527.0" y="1102.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/commons-logging:commons-logging:jar:1.0.4</node>
+            <node x="268.0" y="2318.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
+            <node x="268.0" y="2356.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2</node>
+            <node x="268.0" y="2052.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0</node>
+            <node x="389.0" y="874.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9</node>
+            <node x="213.0" y="684.0">org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-webmvc:jar:3.2.0.RELEASE</node>
+            <node x="692.0" y="1596.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+            <node x="579.0" y="2584.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/commons-logging:commons-logging-api:jar:1.1</node>
+            <node x="523.0" y="1558.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9</node>
+            <node x="460.0" y="2242.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
+            <node x="411.0" y="2090.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-artifact:jar:2.0.6</node>
+            <node x="389.0" y="1178.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
+            <node x="519.0" y="1216.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+            <node x="97.0" y="456.0">javax.servlet.jsp:jsp-api:jar:2.1</node>
+            <node x="523.0" y="1596.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9</node>
+            <node x="411.0" y="2052.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-core:jar:2.0.6</node>
+            <node x="348.0" y="114.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
+            <node x="579.0" y="2546.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/log4j:log4j:jar:1.2.12</node>
+            <node x="664.0" y="988.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2</node>
+            <node x="97.0" y="418.0">javax.servlet:servlet-api:jar:2.5</node>
+            <node x="214.0" y="342.0">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="460.0" y="2166.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-plugin-api:jar:2.2.1</node>
+            <node x="329.0" y="266.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="452.0" y="2356.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
+            <node x="527.0" y="1140.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2</node>
+            <node x="389.0" y="1976.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-monitor:jar:2.0.9</node>
+            <node x="569.0" y="1786.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
+            <node x="527.0" y="912.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+            <node x="389.0" y="1368.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9</node>
+            <node x="389.0" y="1748.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9</node>
+            <node x="523.0" y="1634.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+            <node x="570.0" y="1938.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2</node>
+            <node x="233.0" y="646.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+            <node x="97.0" y="0.0">org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="389.0" y="988.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2</node>
+            <node x="570.0" y="1900.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
+            <node x="389.0" y="1292.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
+            <node x="214.0" y="380.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+            <node x="450.0" y="2508.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-classworlds:jar:2.2.2</node>
+            <node x="460.0" y="2204.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-core:jar:2.2.1</node>
+            <node x="215.0" y="0.0">org.springframework:spring-core:jar:3.2.0.RELEASE/commons-logging:commons-logging:jar:1.1.1</node>
+            <node x="348.0" y="152.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+            <node x="450.0" y="2546.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4</node>
+            <node x="214.0" y="38.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE</node>
+            <node x="403.0" y="836.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+            <node x="329.0" y="304.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE</node>
+            <node x="233.0" y="494.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE</node>
+            <node x="450.0" y="2660.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/junit:junit:jar:3.8.2</node>
+            <node x="268.0" y="874.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9</node>
+            <node x="547.0" y="1330.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2/org.codehaus.plexus:plexus-utils:jar:1.0.4</node>
+            <node x="268.0" y="2470.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5</node>
+            <node x="268.0" y="2166.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1</node>
+            <node x="570.0" y="1862.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+            <node x="450.0" y="2622.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/com.google.collections:google-collections:jar:1.0</node>
+            <node x="523.0" y="1672.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9</node>
+            <node x="527.0" y="988.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1</node>
+            <node x="664.0" y="1026.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/jdom:jdom:jar:1.0</node>
+            <node x="233.0" y="532.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="329.0" y="228.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="348.0" y="38.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="268.0" y="798.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
+            <node x="213.0" y="722.0">org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="389.0" y="2014.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+            <node x="389.0" y="1406.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-error-diagnostics:jar:2.0.9</node>
+            <node x="389.0" y="1254.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
+            <node x="0.0" y="0.0">com.springapp:Master:1.0-SNAPSHOT</node>
+            <node x="97.0" y="2698.0">org.json:json:jar:20080701</node>
+            <node x="570.0" y="1824.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9</node>
+            <node x="517.0" y="1254.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
+            <node x="382.0" y="608.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="233.0" y="608.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
+            <node x="821.0" y="988.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2/commons-logging:commons-logging:jar:1.0.3</node>
+            <node x="523.0" y="1444.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9</node>
+            <node x="389.0" y="1710.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
+            <node x="340.0" y="380.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="97.0" y="494.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE</node>
+            <node x="519.0" y="1178.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
+            <node x="527.0" y="874.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
+            <node x="97.0" y="684.0">org.springframework:spring-test:jar:3.2.0.RELEASE</node>
+            <node x="97.0" y="798.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1</node>
+            <node x="268.0" y="2128.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
+            <node x="268.0" y="836.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9</node>
+            <node x="348.0" y="76.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-error-diagnostics:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1420.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-core:jar:2.2.1">
+              <point x="0.0" y="0.0" />
+              <point x="349.0" y="2218.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2">
+              <point x="0.0" y="0.0" />
+              <point x="167.5" y="2370.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1344.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="256.5" y="318.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="167.5" y="2066.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="140.5" y="242.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/de.zeigermann.xml:xml-im-exporter:jar:1.1">
+              <point x="0.0" y="0.0" />
+              <point x="580.5" y="1078.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1382.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+              <point x="0.0" y="0.0" />
+              <point x="464.5" y="1876.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1002.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="441.0" y="1496.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-plugin-api:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/commons-logging:commons-logging:jar:1.0.4">
+              <point x="0.0" y="0.0" />
+              <point x="443.0" y="1116.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1838.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1192.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="266.0" y="90.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="167.5" y="888.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1">
+              <point x="0.0" y="0.0" />
+              <point x="167.5" y="2142.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="464.0" y="1800.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-classworlds:jar:2.2.2">
+              <point x="0.0" y="0.0" />
+              <point x="344.0" y="2522.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="150.0" y="660.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-plugin-api:jar:2.2.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="150.0" y="546.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1">
+              <point x="0.0" y="0.0" />
+              <point x="33.5" y="812.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="441.0" y="1534.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2/commons-logging:commons-logging:jar:1.0.3">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/commons-logging:commons-logging-api:jar:1.1">
+              <point x="0.0" y="0.0" />
+              <point x="499.5" y="2598.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/junit:junit:jar:3.8.2">
+              <point x="0.0" y="0.0" />
+              <point x="344.0" y="2674.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1/com.google.code.findbugs:jsr305:jar:2.0.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="266.0" y="166.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="33.5" y="508.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="464.5" y="1914.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.json:json:jar:20080701">
+              <point x="0.0" y="0.0" />
+              <point x="33.5" y="2712.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:3.2.0.RELEASE" target="org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="140.0" y="736.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+              <point x="0.0" y="0.0" />
+              <point x="439.0" y="1230.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="441.0" y="1610.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1306.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-core:jar:2.0.6">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5">
+              <point x="0.0" y="0.0" />
+              <point x="167.5" y="2484.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="256.5" y="280.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="140.5" y="356.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Master:1.0-SNAPSHOT" target="junit:junit:jar:4.8.2">
+              <point x="0.0" y="0.0" />
+              <point x="33.5" y="774.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-web:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="150.0" y="584.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1724.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/log4j:log4j:jar:1.2.12">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.codehaus.plexus:plexus-component-annotations:jar:1.5.5">
+              <point x="0.0" y="0.0" />
+              <point x="349.0" y="2294.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.springframework:spring-core:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2">
+              <point x="0.0" y="0.0" />
+              <point x="443.0" y="1154.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1762.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2">
+              <point x="0.0" y="0.0" />
+              <point x="464.5" y="1952.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Master:1.0-SNAPSHOT" target="javax.servlet.jsp:jsp-api:jar:2.1">
+              <point x="0.0" y="0.0" />
+              <point x="33.5" y="470.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="2028.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+              <point x="0.0" y="0.0" />
+              <point x="443.0" y="926.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2/org.codehaus.plexus:plexus-utils:jar:1.0.4">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2">
+              <point x="0.0" y="0.0" />
+              <point x="167.5" y="2408.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1">
+              <point x="0.0" y="0.0" />
+              <point x="167.5" y="2180.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-api:jar:2.2">
+              <point x="0.0" y="0.0" />
+              <point x="167.5" y="2332.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-artifact:jar:2.0.6">
+              <point x="0.0" y="0.0" />
+              <point x="324.5" y="2104.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="441.0" y="1572.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-core:jar:3.2.0.RELEASE" target="org.springframework:spring-core:jar:3.2.0.RELEASE/commons-logging:commons-logging:jar:1.1.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-repository-metadata:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/com.google.collections:google-collections:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="344.0" y="2636.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1458.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4">
+              <point x="0.0" y="0.0" />
+              <point x="344.0" y="2560.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="964.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2">
+              <point x="0.0" y="0.0" />
+              <point x="337.0" y="2446.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.springframework:spring-web:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="33.5" y="52.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-monitor:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1990.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.springframework:spring-test:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="33.5" y="698.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="266.0" y="128.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1">
+              <point x="0.0" y="0.0" />
+              <point x="349.0" y="2256.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-test:jar:3.2.0.RELEASE" target="org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-webmvc:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="140.5" y="204.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="140.5" y="394.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+              <point x="0.0" y="0.0" />
+              <point x="441.0" y="1648.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="150.0" y="622.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="167.5" y="850.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/jdom:jdom:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="580.5" y="1040.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="441.0" y="1686.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Master:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
+              <point x="0.0" y="0.0" />
+              <point x="33.5" y="432.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="313.5" y="1268.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="0.6766205389657682" x="324.1291711517763" y="679.475780409042" />
+          <SelectedNodes>
+            <node>com.springapp:Master:1.0-SNAPSHOT</node>
+          </SelectedNodes>
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
         </state>
       </provider>
     </entry>
