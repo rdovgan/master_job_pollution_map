@@ -110,16 +110,18 @@ $(document)
                 contentType: "application/json",
                 dataType: "json",
                 success: function (response) {
+                    alert(response);
                 },
                 error : function(e){
                     console.error(e);
                 }
             });
+        });
+        $('#test').click(function () {
             $.ajax({
                 type: "post",
-                url: "getResult",
-                success: function (response) {
-
+                url: "test",
+                success: function (result) {
                 },
                 error: function (e) {
                     console.error(e);

@@ -133,6 +133,7 @@
                     <a id="getResult" class="btn btn-warning col-md-12">Get result</a>
                 </td>
                 <td>
+                    <a id="test" class="btn btn-info col-md-12">Test</a>
                 </td>
             </tr>
         </table>

@@ -14,7 +14,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
-import java.util.Map;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.TreeMap;
 
 import static edu.master.equation.Table.degreeChange;
@@ -26,15 +27,15 @@ import static java.lang.Math.*;
 @RequestMapping("/")
 public class ApplicationController {
 
-
     private Model model = new Model();
     private Distribution distribution = new Distribution();
     private Variables variables = new Variables();
 
-    private Map<Point2D, Integer> heightMap = null;
+    private TreeMap<Point2D, Integer> heightMap = null;
     private TreeMap<Point2D, Wind> windMap = null;
+    private List<Point2D> points = null;
 
-    private int cellWidth = 1000;
+    private double cellWidth = 1000;
     private int cellCount = 20;
 
 
@@ -47,35 +48,42 @@ public class ApplicationController {
 
     public void setRandomWindMap(double x, double y, double degree, double speed) {
         windMap = new TreeMap<Point2D, Wind>();
-        x = round(x * cellWidth) * (1./cellWidth);
-        y = round(y * cellWidth) * (1./ cellWidth);
-        double dx = 1. / cellWidth;
+        x = round(x * cellWidth);
+        y = round(y * cellWidth);
+        double dx = cellWidth/1000.;
         for (int i = -cellCount / 2; i < cellCount / 2; i++)
             for (int j = -cellCount / 2; j < cellCount / 2; j++) {
                 windMap.put(new Point2D(x + i * dx, y + j * dx), getWindFromPolar(degree + random() * degreeChange, speed + random() * speedChange));
             }
+        variables.setWindMap(windMap);
     }
 
     public JSONObject calculate() {
         model = new Model(variables, distribution);
-        double x0 = round(distribution.getX0()*cellWidth)*(1./cellWidth);
-        double y0 = round(distribution.getY0()*cellWidth)*(1./cellWidth);
+        double x0 = round(distribution.getX0());
+        double y0 = round(distribution.getY0());
         JSONArray jsonArray = new JSONArray();
-        for(int i=-cellCount/2; i<cellCount/2; i++){
-            for(int j=-cellCount/2; j<cellCount/2; j++){
-                double x = x0+i*(1./cellWidth);
-                double y = y0+j*(1./cellWidth);
-                double c = model.physicoChemical(x,y,heightMap.get(new Point2D(x,y)));
-                JSONObject object = new JSONObject();
-                try {
-                    object.put("x",x);
-                    object.put("y",y);
-                    object.put("c",c);
-                } catch (JSONException e) {
-                    e.printStackTrace();
-                }
-                jsonArray.put(object);
+        int n = points.size();
+        for(int i=0; i<n; i++){
+            Point2D point = points.get(i);
+            double x = point.getX();
+            double y = point.getY();
+            double h = model.getVars().getHeight(x,y);
+
+            System.out.println("h="+h);//TODO:clean
+            Double c = model.physicoChemical(x,y,h);
+            if(c.isInfinite()||c.isNaN()) c = .0;
+            JSONObject object = new JSONObject();
+            try {
+                object.put("x",x);
+                object.put("y",y);
+                object.put("c",c);
+                System.out.println(object);//TODO:clean
+            } catch (JSONException e) {
+                System.out.println("Error while create JSON with result");
+                e.printStackTrace();
             }
+            jsonArray.put(object);
         }
         JSONObject result = new JSONObject(jsonArray);
         return result;
@@ -83,7 +91,7 @@ public class ApplicationController {
 
     @RequestMapping(method = RequestMethod.GET)
     public String printWelcome(ModelMap model) {
-        model.addAttribute("message", "Hello world!");
+        model.addAttribute("message", "Main page");
         return "index";
     }
 
@@ -99,8 +107,8 @@ public class ApplicationController {
                      @RequestParam(value = "sigZ", required = true) String sigZ,
                      @RequestParam(value = "atmosphere", required = true) String atmosphere) {
         distribution.setOutput(Double.parseDouble(output));
-        distribution.setX0(Double.parseDouble(x0));
-        distribution.setY0(Double.parseDouble(y0));
+        distribution.setX0(Double.parseDouble(x0)*cellWidth);
+        distribution.setY0(Double.parseDouble(y0)*cellWidth);
         distribution.setH(round(Double.parseDouble(height)));
         distribution.setSigX(Double.parseDouble(sigX));
         distribution.setSigY(Double.parseDouble(sigY));
@@ -124,11 +132,11 @@ public class ApplicationController {
             windSpeed = Double.parseDouble(jsonArr.getJSONObject(0).getString("windspeedKmph")) / 3.6;
             windDegree = Double.parseDouble(jsonArr.getJSONObject(0).getString("winddirDegree"));
         } catch (JSONException e) {
-            System.out.println("error");
+            System.out.println("Error while convert JSON to weather data");
         }
         setRandomWindMap(distribution.getX0(), distribution.getY0(), windDegree, windSpeed);
         variables.setT((int) round(tempC));
-        variables.setCellWidth(cellWidth);
+        variables.setCellWidth((int)cellWidth);
         return "success";
     }
 
@@ -143,7 +151,7 @@ public class ApplicationController {
                                         @RequestParam("cellWidth")String cellWidthStr){
         cellWidth = Integer.parseInt(cellWidthStr);
         cellCount = Integer.parseInt(cellCountStr);
-        variables.setCellWidth(cellWidth);
+        variables.setCellWidth((int)cellWidth);
         model.setT1(Double.parseDouble(timeBegin));
         model.setT2(Double.parseDouble(timeEnd));
         model.setDelta(Double.parseDouble(timeDelta));
@@ -154,28 +162,34 @@ public class ApplicationController {
     }
 
     @RequestMapping(value = "/getHeightMap", method = RequestMethod.POST)
-    public @ResponseBody String getHeightMap(@RequestBody String data)throws UnsupportedEncodingException{
+    public @ResponseBody JSONObject getHeightMap(@RequestBody String data)throws UnsupportedEncodingException{
         data = URLDecoder.decode(data, "UTF-8");
+        heightMap = new TreeMap<Point2D, Integer>();
+        points = new ArrayList<Point2D>();
         try {
             JSONArray jsonArr = new JSONArray(data);
             for(int i=0; i<jsonArr.length(); i++){
-                //TODO:check why do one time only
                 JSONObject object = jsonArr.getJSONObject(i);
-                double x = round(Double.parseDouble(object.get("x").toString())*cellWidth)*(1./cellWidth);
-                double y = round(Double.parseDouble(object.get("y").toString())*cellWidth)*(1./cellWidth);
-                int h = (int)round(Double.parseDouble(object.get("h").toString()));
-                System.out.println(x+"\t"+y+"\t"+h);
+                double x = round(Double.parseDouble(object.get("x").toString())*cellWidth);
+                double y = round(Double.parseDouble(object.get("y").toString())*cellWidth);
+                Integer h = (int)round(Double.parseDouble(object.get("h").toString()));
                 Point2D point = new Point2D(x,y);
+                points.add(new Point2D(x,y));
                 heightMap.put(point, h);
             }
         } catch (JSONException e) {
-            System.out.println("error");
+            System.out.println("Error while convert JSON to heightMap");
         }
-        return "success";
+        variables.setHeightMap(heightMap);
+        JSONObject result = calculate();
+        System.out.println(result.toString());
+        return result;
     }
 
-    @RequestMapping(value = "/getResult", method = RequestMethod.POST)
-    public @ResponseBody String getResult(){
-        return calculate().toString();
+    @RequestMapping(value="/test", method = RequestMethod.POST)
+    public @ResponseBody String test(){
+        System.out.println();
+        model.physicoChemical(10,10,20);
+        return "success";
     }
 }
