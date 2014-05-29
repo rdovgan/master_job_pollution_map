@@ -47,8 +47,8 @@ public class ApplicationController {
 
     public void setRandomWindMap(double x, double y, double degree, double speed) {
         windMap = new TreeMap<Point2D, Wind>();
-        x = round(x * cellWidth) / cellWidth;
-        y = round(y * cellWidth) / cellWidth;
+        x = round(x * cellWidth) * (1./cellWidth);
+        y = round(y * cellWidth) * (1./ cellWidth);
         double dx = 1. / cellWidth;
         for (int i = -cellCount / 2; i < cellCount / 2; i++)
             for (int j = -cellCount / 2; j < cellCount / 2; j++) {
@@ -56,10 +56,29 @@ public class ApplicationController {
             }
     }
 
-    public void calculate() {
-        //TODO:set variables
+    public JSONObject calculate() {
         model = new Model(variables, distribution);
-        //TODO:get arr with results
+        double x0 = round(distribution.getX0()*cellWidth)*(1./cellWidth);
+        double y0 = round(distribution.getY0()*cellWidth)*(1./cellWidth);
+        JSONArray jsonArray = new JSONArray();
+        for(int i=-cellCount/2; i<cellCount/2; i++){
+            for(int j=-cellCount/2; j<cellCount/2; j++){
+                double x = x0+i*(1./cellWidth);
+                double y = y0+j*(1./cellWidth);
+                double c = model.physicoChemical(x,y,heightMap.get(new Point2D(x,y)));
+                JSONObject object = new JSONObject();
+                try {
+                    object.put("x",x);
+                    object.put("y",y);
+                    object.put("c",c);
+                } catch (JSONException e) {
+                    e.printStackTrace();
+                }
+                jsonArray.put(object);
+            }
+        }
+        JSONObject result = new JSONObject(jsonArray);
+        return result;
     }
 
     @RequestMapping(method = RequestMethod.GET)
@@ -78,8 +97,7 @@ public class ApplicationController {
                      @RequestParam(value = "sigX", required = true) String sigX,
                      @RequestParam(value = "sigY", required = true) String sigY,
                      @RequestParam(value = "sigZ", required = true) String sigZ,
-                     @RequestParam(value = "atmosphere", required = true) String atmosphere,
-                     @RequestParam(value = "temperature", required = true) String temperature) {
+                     @RequestParam(value = "atmosphere", required = true) String atmosphere) {
         distribution.setOutput(Double.parseDouble(output));
         distribution.setX0(Double.parseDouble(x0));
         distribution.setY0(Double.parseDouble(y0));
@@ -88,7 +106,6 @@ public class ApplicationController {
         distribution.setSigY(Double.parseDouble(sigY));
         distribution.setSigZ(Double.parseDouble(sigZ));
         variables.setAtmosphere(atmosphere.charAt(0));
-        variables.setT(Integer.parseInt(temperature) + 273);//TODO:remove, it takes from json
         return "success";
     }
 
@@ -121,7 +138,7 @@ public class ApplicationController {
                                         @RequestParam(value = "timeDelta", required = true) String timeDelta,
                                         @RequestParam(value = "eps", required = true) String eps,
                                         @RequestParam(value = "layerCount", required = true) String layerCount,
-                                        @RequestParam(value = "layerHeight", required = true) String layerHeigh, 
+                                        @RequestParam(value = "layerHeight", required = true) String layerHeight,
                                         @RequestParam("cellCount")String cellCountStr,
                                         @RequestParam("cellWidth")String cellWidthStr){
         cellWidth = Integer.parseInt(cellWidthStr);
@@ -132,7 +149,7 @@ public class ApplicationController {
         model.setDelta(Double.parseDouble(timeDelta));
         model.setEps(Double.parseDouble(eps));
         model.setLayerCount(Integer.parseInt(layerCount));
-        model.setLayerHeight(Integer.parseInt(timeBegin));
+        model.setLayerHeight(Integer.parseInt(layerHeight));
         return "success";
     }
 
@@ -142,6 +159,7 @@ public class ApplicationController {
         try {
             JSONArray jsonArr = new JSONArray(data);
             for(int i=0; i<jsonArr.length(); i++){
+                //TODO:check why do one time only
                 JSONObject object = jsonArr.getJSONObject(i);
                 double x = round(Double.parseDouble(object.get("x").toString())*cellWidth)*(1./cellWidth);
                 double y = round(Double.parseDouble(object.get("y").toString())*cellWidth)*(1./cellWidth);
@@ -154,5 +172,10 @@ public class ApplicationController {
             System.out.println("error");
         }
         return "success";
+    }
+
+    @RequestMapping(value = "/getResult", method = RequestMethod.POST)
+    public @ResponseBody String getResult(){
+        return calculate().toString();
     }
 }

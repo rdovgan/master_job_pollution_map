@@ -70,10 +70,7 @@
                         <option>G</option>
                     </select>
                 </td>
-                <td>
-                    <label for="temperature">Temperature </label><input type="text" id="temperature"
-                                                                        class="form-control" value="25">
-                </td>
+                <td></td>
             </tr>
             <tr>
                 <td>
@@ -136,7 +133,6 @@
                     <a id="getResult" class="btn btn-warning col-md-12">Get result</a>
                 </td>
                 <td>
-
                 </td>
             </tr>
         </table>
