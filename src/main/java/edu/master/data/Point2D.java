@@ -1,12 +1,15 @@
 package edu.master.data;
 
+import static java.lang.Math.*;
+
 /**
  * Created by rdovgan on 5/12/14.
  */
 public class Point2D implements Comparable<Point2D>{
 
-    private double x;
-    private double y;
+    private long x;
+    private long y;
+
 
     public Point2D() {
         this.x = 0;
@@ -14,8 +17,8 @@ public class Point2D implements Comparable<Point2D>{
     }
 
     public Point2D(double x, double y) {
-        this.x = x;
-        this.y = y;
+        this.x = round(x);
+        this.y = round(y);
     }
 
     public double getX() {
@@ -23,7 +26,7 @@ public class Point2D implements Comparable<Point2D>{
     }
 
     public void setX(double x) {
-        this.x = x;
+        this.x = round(x);
     }
 
     public double getY() {
@@ -31,7 +34,7 @@ public class Point2D implements Comparable<Point2D>{
     }
 
     public void setY(double y) {
-        this.y = y;
+        this.y = round(y);
     }
 
     @Override
@@ -41,20 +44,16 @@ public class Point2D implements Comparable<Point2D>{
 
         Point2D point2D = (Point2D) o;
 
-        if (Double.compare(point2D.x, x) != 0) return false;
-        if (Double.compare(point2D.y, y) != 0) return false;
+        if (x != point2D.x) return false;
+        if (y != point2D.y) return false;
 
         return true;
     }
 
     @Override
     public int hashCode() {
-        int result;
-        long temp;
-        temp = Double.doubleToLongBits(x);
-        result = (int) (temp ^ (temp >>> 32));
-        temp = Double.doubleToLongBits(y);
-        result = 31 * result + (int) (temp ^ (temp >>> 32));
+        int result = (int) (x ^ (x >>> 32));
+        result = 31 * result + (int) (y ^ (y >>> 32));
         return result;
     }
 

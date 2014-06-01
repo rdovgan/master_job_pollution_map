@@ -20,7 +20,7 @@ public final class Table {
     public static double speedChange = 0.8;
     public static double degreeChange = 20;
 
-    public class TwoDoubles{
+    public static class TwoDoubles{
         public double d1;
         public double d2;
 

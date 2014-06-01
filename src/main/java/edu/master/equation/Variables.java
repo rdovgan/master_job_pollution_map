@@ -14,14 +14,16 @@ public class Variables {
 
     private char atmosphere = 'A';
 
+    private Table table = new Table();
+
     private final double gamaA = 0.0098;
     private final double koefCp = 1.3;
     private final double t0 = 273;
 
-    private int cellWidth = 1000;
+    private double cellWidth = 1000;
 
     private TreeMap<Point2D, Wind> windMap = null;
-    private Map<Point2D, Integer> heightMap = null;
+    private TreeMap<Point2D, Integer> heightMap = null;
 
     private int t = 293; //20*C
 
@@ -37,15 +39,15 @@ public class Variables {
     }
 
     public int getH(double x, double y){
-        return (int)random()*100;//TODO: get value from heightMap
+        return (int)(random()*100+100);//TODO: get value from heightMap
     }
 
     public Wind getWind(double x, double y){
         if(windMap==null)   return new Wind(1,1);
-        x = round(x* cellWidth)/ cellWidth;
+        x = round(x* cellWidth)/ cellWidth;//TODO:check x and y
         y = round(y* cellWidth)/ cellWidth;
         Point2D point = new Point2D(x,y);
-        Wind wind = windMap.get(point);
+        Wind wind = windMap.get(point);//TODO:windMap is empty
         if(wind == null){
             Map.Entry<Point2D, Wind> high = windMap.ceilingEntry(point);
             if(high==null){
@@ -59,7 +61,27 @@ public class Variables {
         return wind;
     }
 
+    public int getHeight(double x, double y){
+        if(heightMap==null)   return 0;
+        x = round(x* cellWidth)/ cellWidth;
+        y = round(y* cellWidth)/ cellWidth;
+        Point2D point = new Point2D(x,y);
+        Integer h = heightMap.get(point);
+        if(h == null){
+            Map.Entry<Point2D, Integer> high = heightMap.ceilingEntry(point);
+            if(high==null){
+                Map.Entry<Point2D, Integer> low = heightMap.floorEntry(point);
+                if(low==null)
+                    return 0;
+                return low.getValue();
+            }
+            return high.getValue();
+        }
+        return h;
+    }
+
     public double getU2D(double x, double y) {
+        //TODO:return wrong values
         return getWind(x,y).u;
     }
 
@@ -68,11 +90,11 @@ public class Variables {
     }
 
     public double getU3D(double x, double y, double z) {
-        return getU2D(x, y)*pow(z/getH(x,y), Table.getM(atmosphere));
+        return getU2D(x, y)*pow(z/getH(x,y), table.getM(atmosphere));
     }
 
     public double getV3D(double x, double y, double z) {
-        return getV2D(x, y)*pow(z/getH(x,y), Table.getM(atmosphere));
+        return getV2D(x, y)*pow(z/getH(x,y), table.getM(atmosphere));
     }
 
     public double getWind(double x, double y, double z) {
@@ -148,7 +170,7 @@ public class Variables {
         return heightMap;
     }
 
-    public void setHeightMap(Map<Point2D, Integer> heightMap) {
+    public void setHeightMap(TreeMap<Point2D, Integer> heightMap) {
         this.heightMap = heightMap;
     }
 
@@ -160,7 +182,7 @@ public class Variables {
         this.t = t;
     }
 
-    public int getCellWidth() {
+    public double getCellWidth() {
         return cellWidth;
     }
 
