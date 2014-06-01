@@ -2,90 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="647904e6-09fa-4557-8cbf-0f196d173ae5" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master.war" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Field.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Particle.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Point2D.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\data\Point3D.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Distribution.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Model.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Table$TwoDoubles.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Table.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Variables.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\equation\Wind.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\main\ApplicationController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\classes\edu\master\main\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\commons-httpclient-2.0.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\commons-logging-1.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\commons-logging-api-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\google-collections-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\jdom-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\jsr305-2.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\log4j-1.2.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-artifact-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-artifact-manager-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-compiler-plugin-3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-core-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-error-diagnostics-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-model-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-monitor-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-api-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-descriptor-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-parameter-documenter-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-plugin-registry-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-profile-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-project-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-repository-metadata-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-settings-2.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-shared-incremental-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-shared-utils-0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\maven-toolchain-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\org.json-20120521.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-classworlds-2.2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-compiler-api-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-compiler-javac-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-compiler-manager-2.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-component-annotations-1.5.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-container-default-1.5.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\plexus-utils-1.5.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\servlet-api-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\slide-webdavlib-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-aop-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-beans-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-context-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-core-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-expression-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-web-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\spring-webmvc-3.2.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\wagon-provider-api-1.0-beta-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\wagon-webdav-1.0-beta-2.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\xbean-reflect-3.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\lib\xml-im-exporter-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\mvc-dispatcher-servlet.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\pages\index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\WEB-INF\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\Master\resources\main.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Field.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Particle.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Point2D.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\data\Point3D.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Distribution.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Model.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Table$TwoDoubles.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Table.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Variables.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\equation\Wind.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\main\ApplicationController.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\classes\edu\master\main\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\maven-archiver\pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\surefire-reports\TEST-edu.master.main.AppTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\surefire-reports\edu.master.main.AppTests.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\test-classes\edu\master\main\AppTests.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\conf\logging.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\conf\tomcat-users.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\conf\web.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\rdovgan\IdeaProjects\Master\target\tomcat\logs\access_log.2014-05-23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Roma\IdeaProjects\Master\libs\org.json-20120521.jar" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Roma\IdeaProjects\Master\src\test\java\edu\master\main\AppTests.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java" afterPath="$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Master.iml" afterPath="$PROJECT_DIR$/Master.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Master_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Master_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java" afterPath="$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Master.iws" />
@@ -149,88 +76,106 @@
     <favorites_list name="Master" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6105169">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="2584">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Distribution.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Distribution.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="29" column="57" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="2482">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Model.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4012">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="ApplicationController.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="28" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2754">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AppTests.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="21" column="35" selection-start="612" selection-end="612" vertical-scroll-proportion="0.8581731" vertical-offset="0" max-vertical-offset="544">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Table.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="18" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3009">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="264" column="14" selection-start="7868" selection-end="7868" vertical-scroll-proportion="0.0" vertical-offset="4057" max-vertical-offset="5032">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="276" column="8" selection-start="8156" selection-end="8156" vertical-scroll-proportion="1.3419812" vertical-offset="4123" max-vertical-offset="5032">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="104" column="43" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.0" vertical-offset="1741" max-vertical-offset="5185">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="134" column="20" selection-start="5859" selection-end="5859" vertical-scroll-proportion="-7.1538463" vertical-offset="2092" max-vertical-offset="2516">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Distribution.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Distribution.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="57" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="1938">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Model.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="28" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="2347" max-vertical-offset="3468">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApplicationController.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="161" column="49" selection-start="7206" selection-end="7206" vertical-scroll-proportion="0.46601942" vertical-offset="2270" max-vertical-offset="2839">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Variables.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Table.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="115" column="42" selection-start="3363" selection-end="3363" vertical-scroll-proportion="0.0" vertical-offset="1606" max-vertical-offset="2720">
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#204#223#0" expanded="false" />
+                <element signature="e#288#311#0" expanded="false" />
+                <element signature="e#376#395#0" expanded="false" />
+                <element signature="e#460#480#0" expanded="false" />
+                <element signature="e#547#567#0" expanded="false" />
+                <element signature="e#640#663#0" expanded="false" />
+                <element signature="e#724#743#0" expanded="false" />
+                <element signature="e#804#823#0" expanded="false" />
+                <element signature="e#3050#3051#0" expanded="false" />
+                <element signature="e#3074#3075#0" expanded="false" />
+                <element signature="e#3129#3130#0" expanded="false" />
+                <element signature="e#3153#3154#0" expanded="false" />
+                <element signature="e#3208#3209#0" expanded="false" />
+                <element signature="e#3236#3237#0" expanded="false" />
+                <element signature="e#3291#3292#0" expanded="false" />
+                <element signature="e#3318#3319#0" expanded="false" />
+                <element signature="e#3375#3376#0" expanded="false" />
+                <element signature="e#3404#3405#0" expanded="false" />
+                <element signature="e#3467#3468#0" expanded="false" />
+                <element signature="e#3499#3500#0" expanded="false" />
+                <element signature="e#3550#3551#0" expanded="false" />
+                <element signature="e#3574#3575#0" expanded="false" />
+                <element signature="e#3625#3626#0" expanded="false" />
+                <element signature="e#3649#3650#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -243,7 +188,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/data/Field.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/data/Particle.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/main/Main.java" />
@@ -252,14 +196,15 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/master/data/Point3D.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Wind.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Distribution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/data/Point2D.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/main.js" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java" />
       </list>
     </option>
   </component>
@@ -308,8 +253,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -349,6 +294,11 @@
             <id>XPath</id>
           </State>
         </expanded-state>
+        <selected-state>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+        </selected-state>
       </profile-state>
     </entry>
     <entry key="json">
@@ -375,7 +325,7 @@
     <OptionsSetting value="true" id="Edit" />
     <OptionsSetting value="true" id="Undo Check Out" />
     <OptionsSetting value="true" id="Get Latest Version" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -429,8 +379,18 @@
               <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="Master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -635,7 +595,7 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
     <property name="SearchEverywhereHistory" value="" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="preferences.applicationServers" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -649,7 +609,7 @@
       <recent name="C:\Users\rdovgan\IdeaProjects\Master\src\main\webapp" />
     </key>
   </component>
-  <component name="RunManager" selected="Heroku Deployment.master-rdovgan">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.42">
     <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails" singleton="true">
       <module name="" />
       <setting name="vmparams" value="" />
@@ -759,6 +719,9 @@
       </option>
       <envs />
       <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="cloudbees-deploy" factoryName="CloudBees Deployment">
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
@@ -912,9 +875,11 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="Tomcat 7.0.42" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.42" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="false" name="Tomcat 7.0.42" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.53" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
       <option name="OPEN_IN_BROWSER" value="false" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
         <artifact name="Master:war exploded">
           <settings>
@@ -1029,14 +994,17 @@
       <workItem from="1401288149090" duration="217000" />
       <workItem from="1401288390132" duration="1891000" />
       <workItem from="1401290638679" duration="2320000" />
+      <workItem from="1401300141171" duration="1269000" />
+      <workItem from="1401303981908" duration="246000" />
+      <workItem from="1401304284994" duration="6333000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61919000" />
+    <option name="totallyTimeSpent" value="69767000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1051,24 +1019,24 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43414634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14909478" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14879154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14802982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.49945945" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26586103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43414634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32901832" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1093,10 +1061,83 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="22" selection-start="3992" selection-end="3992" vertical-scroll-proportion="0.0" vertical-offset="1734" max-vertical-offset="2754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3009">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#204#223#0" expanded="false" />
+            <element signature="e#288#311#0" expanded="false" />
+            <element signature="e#376#395#0" expanded="false" />
+            <element signature="e#460#480#0" expanded="false" />
+            <element signature="e#547#567#0" expanded="false" />
+            <element signature="e#640#663#0" expanded="false" />
+            <element signature="e#724#743#0" expanded="false" />
+            <element signature="e#804#823#0" expanded="false" />
+            <element signature="e#3050#3051#0" expanded="false" />
+            <element signature="e#3074#3075#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
+            <element signature="e#3153#3154#0" expanded="false" />
+            <element signature="e#3208#3209#0" expanded="false" />
+            <element signature="e#3236#3237#0" expanded="false" />
+            <element signature="e#3291#3292#0" expanded="false" />
+            <element signature="e#3318#3319#0" expanded="false" />
+            <element signature="e#3375#3376#0" expanded="false" />
+            <element signature="e#3404#3405#0" expanded="false" />
+            <element signature="e#3467#3468#0" expanded="false" />
+            <element signature="e#3499#3500#0" expanded="false" />
+            <element signature="e#3550#3551#0" expanded="false" />
+            <element signature="e#3574#3575#0" expanded="false" />
+            <element signature="e#3625#3626#0" expanded="false" />
+            <element signature="e#3649#3650#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3009">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#204#223#0" expanded="false" />
+            <element signature="e#288#311#0" expanded="false" />
+            <element signature="e#376#395#0" expanded="false" />
+            <element signature="e#460#480#0" expanded="false" />
+            <element signature="e#547#567#0" expanded="false" />
+            <element signature="e#640#663#0" expanded="false" />
+            <element signature="e#724#743#0" expanded="false" />
+            <element signature="e#804#823#0" expanded="false" />
+            <element signature="e#3050#3051#0" expanded="false" />
+            <element signature="e#3074#3075#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
+            <element signature="e#3153#3154#0" expanded="false" />
+            <element signature="e#3208#3209#0" expanded="false" />
+            <element signature="e#3236#3237#0" expanded="false" />
+            <element signature="e#3291#3292#0" expanded="false" />
+            <element signature="e#3318#3319#0" expanded="false" />
+            <element signature="e#3375#3376#0" expanded="false" />
+            <element signature="e#3404#3405#0" expanded="false" />
+            <element signature="e#3467#3468#0" expanded="false" />
+            <element signature="e#3499#3500#0" expanded="false" />
+            <element signature="e#3550#3551#0" expanded="false" />
+            <element signature="e#3574#3575#0" expanded="false" />
+            <element signature="e#3625#3626#0" expanded="false" />
+            <element signature="e#3649#3650#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,7 +1179,33 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3009">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#204#223#0" expanded="false" />
+            <element signature="e#288#311#0" expanded="false" />
+            <element signature="e#376#395#0" expanded="false" />
+            <element signature="e#460#480#0" expanded="false" />
+            <element signature="e#547#567#0" expanded="false" />
+            <element signature="e#640#663#0" expanded="false" />
+            <element signature="e#724#743#0" expanded="false" />
+            <element signature="e#804#823#0" expanded="false" />
+            <element signature="e#3050#3051#0" expanded="false" />
+            <element signature="e#3074#3075#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
+            <element signature="e#3153#3154#0" expanded="false" />
+            <element signature="e#3208#3209#0" expanded="false" />
+            <element signature="e#3236#3237#0" expanded="false" />
+            <element signature="e#3291#3292#0" expanded="false" />
+            <element signature="e#3318#3319#0" expanded="false" />
+            <element signature="e#3375#3376#0" expanded="false" />
+            <element signature="e#3404#3405#0" expanded="false" />
+            <element signature="e#3467#3468#0" expanded="false" />
+            <element signature="e#3499#3500#0" expanded="false" />
+            <element signature="e#3550#3551#0" expanded="false" />
+            <element signature="e#3574#3575#0" expanded="false" />
+            <element signature="e#3625#3626#0" expanded="false" />
+            <element signature="e#3649#3650#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1180,7 +1247,33 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3009">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#204#223#0" expanded="false" />
+            <element signature="e#288#311#0" expanded="false" />
+            <element signature="e#376#395#0" expanded="false" />
+            <element signature="e#460#480#0" expanded="false" />
+            <element signature="e#547#567#0" expanded="false" />
+            <element signature="e#640#663#0" expanded="false" />
+            <element signature="e#724#743#0" expanded="false" />
+            <element signature="e#804#823#0" expanded="false" />
+            <element signature="e#3050#3051#0" expanded="false" />
+            <element signature="e#3074#3075#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
+            <element signature="e#3153#3154#0" expanded="false" />
+            <element signature="e#3208#3209#0" expanded="false" />
+            <element signature="e#3236#3237#0" expanded="false" />
+            <element signature="e#3291#3292#0" expanded="false" />
+            <element signature="e#3318#3319#0" expanded="false" />
+            <element signature="e#3375#3376#0" expanded="false" />
+            <element signature="e#3404#3405#0" expanded="false" />
+            <element signature="e#3467#3468#0" expanded="false" />
+            <element signature="e#3499#3500#0" expanded="false" />
+            <element signature="e#3550#3551#0" expanded="false" />
+            <element signature="e#3574#3575#0" expanded="false" />
+            <element signature="e#3625#3626#0" expanded="false" />
+            <element signature="e#3649#3650#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1222,18 +1315,40 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="13" column="13" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="2839">
-          <folding>
-            <element signature="e#3965#3966#0" expanded="true" />
-            <element signature="e#4012#4013#0" expanded="true" />
-            <element signature="e#4054#4055#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="49" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="3060">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#204#223#0" expanded="false" />
+            <element signature="e#288#311#0" expanded="false" />
+            <element signature="e#376#395#0" expanded="false" />
+            <element signature="e#460#480#0" expanded="false" />
+            <element signature="e#547#567#0" expanded="false" />
+            <element signature="e#640#663#0" expanded="false" />
+            <element signature="e#724#743#0" expanded="false" />
+            <element signature="e#804#823#0" expanded="false" />
+            <element signature="e#3050#3051#0" expanded="false" />
+            <element signature="e#3074#3075#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
+            <element signature="e#3153#3154#0" expanded="false" />
+            <element signature="e#3208#3209#0" expanded="false" />
+            <element signature="e#3236#3237#0" expanded="false" />
+            <element signature="e#3291#3292#0" expanded="false" />
+            <element signature="e#3318#3319#0" expanded="false" />
+            <element signature="e#3375#3376#0" expanded="false" />
+            <element signature="e#3404#3405#0" expanded="false" />
+            <element signature="e#3467#3468#0" expanded="false" />
+            <element signature="e#3499#3500#0" expanded="false" />
+            <element signature="e#3550#3551#0" expanded="false" />
+            <element signature="e#3574#3575#0" expanded="false" />
+            <element signature="e#3625#3626#0" expanded="false" />
+            <element signature="e#3649#3650#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1275,11 +1390,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="71" column="5" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0" vertical-offset="1207" max-vertical-offset="3060">
-          <folding>
-            <element signature="e#3965#3966#0" expanded="true" />
-            <element signature="e#4012#4013#0" expanded="true" />
-            <element signature="e#4054#4055#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,17 +1417,17 @@
           <ID>MAVEN</ID>
           <OriginalElement>com.springapp:Master:1.0-SNAPSHOT</OriginalElement>
           <nodes>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/de.zeigermann.xml:xml-im-exporter:jar:1.1</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1/com.google.code.findbugs:jsr305:jar:2.0.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.codehaus.plexus:plexus-component-annotations:jar:1.5.5</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8</node>
@@ -1337,8 +1448,8 @@
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/commons-logging:commons-logging-api:jar:1.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-artifact:jar:2.0.6</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="" y="">javax.servlet.jsp:jsp-api:jar:2.1</node>
@@ -1347,8 +1458,8 @@
             <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/log4j:log4j:jar:1.2.12</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2</node>
-            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-plugin-api:jar:2.2.1</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
@@ -1421,18 +1532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="656" selection-end="656" vertical-scroll-proportion="0.7403685" vertical-offset="0" max-vertical-offset="597" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="57" selection-start="2628" selection-end="2628" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1734">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="60" selection-start="671" selection-end="671" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
@@ -1469,48 +1568,6 @@
         <state line="86" column="19" selection-start="3298" selection-end="3298" vertical-scroll-proportion="1.7790698" vertical-offset="0" max-vertical-offset="25653" />
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/org.json-20120521.jar!/org/json/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="30" selection-start="1778" selection-end="1778" vertical-scroll-proportion="0.34750462" vertical-offset="475" max-vertical-offset="2618" />
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/libs/org.json-20120521.jar!/org/json/JSONArray.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="11" selection-start="554" selection-end="554" vertical-scroll-proportion="0.3469751" vertical-offset="77" max-vertical-offset="1887" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="31" selection-start="3934" selection-end="3934" vertical-scroll-proportion="0.9054505" vertical-offset="1515" max-vertical-offset="2567">
-          <folding>
-            <element signature="e#3965#3966#0" expanded="true" />
-            <element signature="e#4012#4013#0" expanded="true" />
-            <element signature="e#4054#4055#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Distribution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="57" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="28" selection-start="28" selection-end="28" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="107" column="19" selection-start="3638" selection-end="3638" vertical-scroll-proportion="0.33215547" vertical-offset="1070" max-vertical-offset="52292">
@@ -1528,30 +1585,91 @@
         <state line="13" column="1" selection-start="218" selection-end="218" vertical-scroll-proportion="0.38568935" vertical-offset="0" max-vertical-offset="573" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="440" max-vertical-offset="2584">
+        <state line="68" column="0" selection-start="2246" selection-end="2246" vertical-scroll-proportion="0.4074074" vertical-offset="1002" max-vertical-offset="1836">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="459" selection-end="459" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2754">
+        <state line="12" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2499">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="28" selection-start="585" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="2347" max-vertical-offset="3468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Distribution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="57" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1938">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="115" column="42" selection-start="3363" selection-end="3363" vertical-scroll-proportion="0.0" vertical-offset="1606" max-vertical-offset="2720">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#204#223#0" expanded="false" />
+            <element signature="e#288#311#0" expanded="false" />
+            <element signature="e#376#395#0" expanded="false" />
+            <element signature="e#460#480#0" expanded="false" />
+            <element signature="e#547#567#0" expanded="false" />
+            <element signature="e#640#663#0" expanded="false" />
+            <element signature="e#724#743#0" expanded="false" />
+            <element signature="e#804#823#0" expanded="false" />
+            <element signature="e#3050#3051#0" expanded="false" />
+            <element signature="e#3074#3075#0" expanded="false" />
+            <element signature="e#3129#3130#0" expanded="false" />
+            <element signature="e#3153#3154#0" expanded="false" />
+            <element signature="e#3208#3209#0" expanded="false" />
+            <element signature="e#3236#3237#0" expanded="false" />
+            <element signature="e#3291#3292#0" expanded="false" />
+            <element signature="e#3318#3319#0" expanded="false" />
+            <element signature="e#3375#3376#0" expanded="false" />
+            <element signature="e#3404#3405#0" expanded="false" />
+            <element signature="e#3467#3468#0" expanded="false" />
+            <element signature="e#3499#3500#0" expanded="false" />
+            <element signature="e#3550#3551#0" expanded="false" />
+            <element signature="e#3574#3575#0" expanded="false" />
+            <element signature="e#3625#3626#0" expanded="false" />
+            <element signature="e#3649#3650#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="121" selection-end="121" vertical-scroll-proportion="0.0" vertical-offset="36" max-vertical-offset="544">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="134" column="20" selection-start="5859" selection-end="5859" vertical-scroll-proportion="-7.1538463" vertical-offset="2092" max-vertical-offset="2516">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="264" column="14" selection-start="7868" selection-end="7868" vertical-scroll-proportion="0.0" vertical-offset="4057" max-vertical-offset="5032">
+        <state line="104" column="43" selection-start="3064" selection-end="3064" vertical-scroll-proportion="0.0" vertical-offset="1741" max-vertical-offset="5185">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="35" selection-start="612" selection-end="612" vertical-scroll-proportion="0.8581731" vertical-offset="0" max-vertical-offset="544">
+        <state line="161" column="49" selection-start="7206" selection-end="7206" vertical-scroll-proportion="0.46601942" vertical-offset="2270" max-vertical-offset="2839">
           <folding />
         </state>
       </provider>
