@@ -97,7 +97,7 @@ $(document)
                 success: function (response) {
                 },
                 error : function(e){
-                    console.error(e);
+                    console.error(e);//TODO:error
                 }
             });
         });
@@ -107,10 +107,12 @@ $(document)
                 type: "post",
                 url: "getHeightMap",
                 data: JSON.stringify(heightMap),
-                contentType: "application/json",
                 dataType: "json",
-                success: function (response) {
-                    alert(response);
+                contentType: "application/json",
+                mimeType: 'application/json',
+                success: function (data) {
+                    alert(data);
+                    console.info(data);//TODO:error
                 },
                 error : function(e){
                     console.error(e);

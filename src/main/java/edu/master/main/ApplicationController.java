@@ -70,7 +70,6 @@ public class ApplicationController {
             double y = point.getY();
             double h = model.getVars().getHeight(x,y);
 
-            System.out.println("h="+h);//TODO:clean
             Double c = model.physicoChemical(x,y,h);
             if(c.isInfinite()||c.isNaN()) c = .0;
             JSONObject object = new JSONObject();
@@ -78,7 +77,6 @@ public class ApplicationController {
                 object.put("x",x);
                 object.put("y",y);
                 object.put("c",c);
-                System.out.println(object);//TODO:clean
             } catch (JSONException e) {
                 System.out.println("Error while create JSON with result");
                 e.printStackTrace();
@@ -136,7 +134,7 @@ public class ApplicationController {
         }
         setRandomWindMap(distribution.getX0(), distribution.getY0(), windDegree, windSpeed);
         variables.setT((int) round(tempC));
-        variables.setCellWidth((int)cellWidth);
+        variables.setCellWidth((int) cellWidth);
         return "success";
     }
 
@@ -162,7 +160,7 @@ public class ApplicationController {
     }
 
     @RequestMapping(value = "/getHeightMap", method = RequestMethod.POST)
-    public @ResponseBody JSONObject getHeightMap(@RequestBody String data)throws UnsupportedEncodingException{
+    public @ResponseBody String getHeightMap(@RequestBody String data)throws UnsupportedEncodingException{
         data = URLDecoder.decode(data, "UTF-8");
         heightMap = new TreeMap<Point2D, Integer>();
         points = new ArrayList<Point2D>();
@@ -182,8 +180,7 @@ public class ApplicationController {
         }
         variables.setHeightMap(heightMap);
         JSONObject result = calculate();
-        System.out.println(result.toString());
-        return result;
+        return "dd";
     }
 
     @RequestMapping(value="/test", method = RequestMethod.POST)
