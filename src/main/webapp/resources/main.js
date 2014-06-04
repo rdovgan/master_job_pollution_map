@@ -92,6 +92,7 @@ $(document)
         });
 
         $('#getResult').click(function () {
+            points = [];
             $.ajax({
                 type: "post",
                 url: "getHeightMap",
@@ -104,7 +105,7 @@ $(document)
                             redPoints++;
                     }
                     for(i=0; i<result.length; i++){
-                        if(result[i].c > output * 0.01){
+                        if(result[i].c > output * 0.001){
                             var xPoint = result[i].x / cellWidth;
                             var yPoint = result[i].y / cellWidth;
                             var point = new google.maps.LatLng(x,y);
@@ -149,7 +150,6 @@ function initialize() {
         mapOptions);
 
     var pointArray = new google.maps.MVCArray(points);
-    alert(points.length);
 
     heatmap = new google.maps.visualization.HeatmapLayer({
         data: pointArray
