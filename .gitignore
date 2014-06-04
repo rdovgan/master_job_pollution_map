@@ -1,3 +1,4 @@
 target/
 .idea/
-Master.iml
+out/
+*.iml
