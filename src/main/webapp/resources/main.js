@@ -1,19 +1,10 @@
-var map, pointarray, heatmap;
-var arrTemp = [];
-var data = [];
-var arrH = [];
-var radiusPoint = 20;
-var radiusLarge = 80;
+var map, pointArray, heatmap;
+var count = 0;
 x0 = 48.291174;
 y0 = 25.923094;
-var n = 1
-var koef = 0.00005;
 var step;
 step = 0;
-var Cmm, Cmax, Xmm, Xmax;
-var bool = 1;
-var pointH = {};
-var marker;
+var points = [];
 
 var cellCount = 20;
 var cellWidth = 1000;
@@ -92,12 +83,10 @@ $(document)
                 type: "post",
                 url: "getJSON",
                 data: json,
-                contentType: "application/json",
-                dataType: "json",
                 success: function (response) {
                 },
                 error : function(e){
-                    console.error(e);//TODO:error
+                    console.error(e);
                 }
             });
         });
@@ -107,12 +96,22 @@ $(document)
                 type: "post",
                 url: "getHeightMap",
                 data: JSON.stringify(heightMap),
-                dataType: "json",
-                contentType: "application/json",
-                mimeType: 'application/json',
                 success: function (data) {
-                    alert(data);
-                    console.info(data);//TODO:error
+                    var result = $.parseJSON(data);
+                    var redPoints = 0;
+                    for(i=0; i<result.length; i++){
+                        if(result[i].c > 1)
+                            redPoints++;
+                    }
+                    for(i=0; i<result.length; i++){
+                        if(result[i].c > output * 0.01){
+                            var xPoint = result[i].x / cellWidth;
+                            var yPoint = result[i].y / cellWidth;
+                            var point = new google.maps.LatLng(x,y);
+                            points.push(new google.maps.LatLng(xPoint, yPoint));
+                        }
+                    }
+                    initialize();
                 },
                 error : function(e){
                     console.error(e);
@@ -120,21 +119,21 @@ $(document)
             });
         });
         $('#test').click(function () {
-            $.ajax({
-                type: "post",
-                url: "test",
-                success: function (result) {
-                },
-                error: function (e) {
-                    console.error(e);
-                }
-            });
+            points = [
+                new google.maps.LatLng(48.291174, 25.929094),
+                new google.maps.LatLng(48.293134, 25.926024),
+                new google.maps.LatLng(48.297134, 25.963024),
+                new google.maps.LatLng(48.293634, 25.913024),
+                new google.maps.LatLng(48.293154, 25.927024),
+                new google.maps.LatLng(48.243134, 25.922024),
+                new google.maps.LatLng(48.253134, 25.925024),
+                new google.maps.LatLng(48.263134, 25.923024),
+                new google.maps.LatLng(48.223134, 25.923324),
+                new google.maps.LatLng(48.271124, 25.913434)
+            ];
+            initialize();
         });
     });
-
-function test() {
-    alert(output + " " + x0 + " " + y0 + " " + height + " " + sigX + " " + sigY + " " + sigZ + " " + atmosphere + " " + temperature);
-}
 
 function initialize() {
     x.value = x0;
@@ -146,17 +145,15 @@ function initialize() {
         mapTypeId: google.maps.MapTypeId.SATELLITE
     };
 
-    map = new google.maps.Map(document.getElementById("map-canvas"),
+    map = new google.maps.Map(document.getElementById('map-canvas'),
         mapOptions);
 
-    pointArray = new google.maps.MVCArray(data);
+    var pointArray = new google.maps.MVCArray(points);
+    alert(points.length);
 
     heatmap = new google.maps.visualization.HeatmapLayer({
         data: pointArray
     });
-
-    heatmap.setMap(null);
-    heatmap.setOptions({radius: radiusPoint});
 
     marker = new google.maps.Marker({
         map: map,
@@ -171,6 +168,42 @@ function initialize() {
         x0 = x.value;
         y0 = y.value;
     });
+
+    heatmap.setMap(map);
+}
+
+function changeGradient() {
+    var gradient = [
+        'rgba(0, 255, 255, 0)',
+        'rgba(0, 255, 255, 1)',
+        'rgba(0, 191, 255, 1)',
+        'rgba(0, 127, 255, 1)',
+        'rgba(0, 63, 255, 1)',
+        'rgba(0, 0, 255, 1)',
+        'rgba(0, 0, 223, 1)',
+        'rgba(0, 0, 191, 1)',
+        'rgba(0, 0, 159, 1)',
+        'rgba(0, 0, 127, 1)',
+        'rgba(63, 0, 91, 1)',
+        'rgba(127, 0, 63, 1)',
+        'rgba(191, 0, 31, 1)',
+        'rgba(255, 0, 0, 1)'
+    ]
+    heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
+}
+
+function changeRadius() {
+    heatmap.setOptions({radius: heatmap.get("radius") == radiusLarge ? radiusPoint : radiusLarge});
+    if (bool == 0) {
+        heatmap.setOptions({radius: radiusPoint});
+        square.value = Xmm;
+        bool = 1;
+    }
+    else {
+        heatmap.setOptions({radius: radiusLarge});
+        square.value = Xmax;
+        bool = 0;
+    }
 }
 
 function getHeight(x,y) {
@@ -199,102 +232,6 @@ function getHeight(x,y) {
             alert('Elevation service failed due to: ' + status);
         }
     });
-}
-
-function toggleHeatmap() {
-    var vM = 22;
-    var vH = 500;
-    var vdT = 100;
-    var vD = 2;
-    var vw0 = 10;
-    var vA = 140;
-    var vnu = 1;
-    var vF = 1;
-    var vu1 = 2;
-    var vu2 = 10;
-    var f = 1000. * vw0 * vw0 * vD / (vH * vH * vdT);
-    var m = 1. / (2 / 3. + 0.1 * Math.sqrt(f) + 1 / 3. * Math.pow(f, 1 / 3.));
-    var V1 = Math.PI * vD * vD * vw0 / 4;
-    var Vm = 2 / 3. * Math.pow(V1 * vdT / vH, 1 / 3.);
-    var kn;
-    if (Vm >= 2) kn = 1; else kn = 2;
-    var M = vM * 1000 * 1000 / 3600.;
-    var Cm = vA * M * vF * m * kn / (vH * vH * Math.pow(V1 * vdT * vnu, 1 / 3.));
-    d = 7. * Math.sqrt(Vm) * (1 + 2 / 7. * Math.sqrt(f));
-    var Xm = (5 - vF) / 4. * d * vH;
-    var um = Vm * (1 + 0.12 * Math.sqrt(f));
-    var kr, kp;
-    if (vu1 / um < 1) {
-        kr = 2 / 3. * (vu1 / um) + 5 / 3. * Math.pow((vu1 / um), 2) - 4 / 3. * Math.pow((vu1 / um), 3);
-        kp = 8.43 * Math.pow((1 - vu1 / um), 5) + 1;
-    }
-    else {
-        kr = 3 * (vu1 / um) / (2 * Math.pow((vu1 / um), 2) - (vu1 / um) + 2);
-        kp = 1 / 3. * vu1 / um + 2 / 3.;
-    }
-    Cmm = Cm * kr;
-    Xmm = Xm * kp;
-    if (vu2 / um < 1) {
-        kr = 2 / 3. * (vu2 / um) + 5 / 3. * Math.pow((vu2 / um), 2) - 4 / 3. * Math.pow((vu2 / um), 3);
-        kp = 8.43 * Math.pow((1 - vu2 / um), 5) + 1;
-    }
-    else {
-        kr = 3 * (vu2 / um) / (2 * Math.pow((vu2 / um), 2) - (vu2 / um) + 2);
-        kp = 1 / 3. * vu2 / um + 2 / 3.;
-    }
-    Cmax = Cm * kr;
-    Xmax = Xm * kp;
-    square.value = Xmm;
-    concentr.value = Cmm;
-    var finish = Math.floor(Cmm) + 1;
-    radiusPoint = Xmm * 40 / 1000;
-    radiusLarge = Xmax * 40 / 1000.;
-    heatmap.setOptions({radius: radiusPoint});
-    step = 0;
-    for (var i = 0; i < finish; i++) {
-        var m;
-        if (i > 0) m = i * 8;
-        else m = 1;
-        h = 360. / m;
-        for (var j = 0; j < m; j++) {
-            var r = i * radiusPoint * koef;
-            var fi = j * h;
-            var x, y;
-            x = Number(x0 + r * Math.cos(fi * Math.PI / 180) * 1.0).toFixed(6);
-            y = Number(y0 + r * Math.sin(fi * Math.PI / 180) * 1.0).toFixed(6);
-            var temp = new google.maps.LatLng(x, y);
-            pointH = getHeight(temp, step);
-            arrTemp[step] = temp;
-            step++;
-        }
-    }
-}
-
-function drawMap() {
-    var j = 0;
-    var H = 200;
-    for (var i = 0; i < step; i++) {
-        if (arrH[i] < H) {
-            data[j] = arrTemp[i];
-            j++;
-        }
-
-    }
-    heatmap.setMap(map);
-}
-
-function changeRadius() {
-    heatmap.setOptions({radius: heatmap.get("radius") == radiusLarge ? radiusPoint : radiusLarge});
-    if (bool == 0) {
-        heatmap.setOptions({radius: radiusPoint});
-        square.value = Xmm;
-        bool = 1;
-    }
-    else {
-        heatmap.setOptions({radius: radiusLarge});
-        square.value = Xmax;
-        bool = 0;
-    }
 }
 
 function changeOpacity() {

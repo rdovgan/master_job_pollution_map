@@ -64,12 +64,13 @@ public class ApplicationController {
         return new JSONObject(jsonArray);
     }
 
-    public JSONObject calculate() {
+    public JSONArray calculate() {
         model = new Model(variables, distribution);
         double x0 = round(distribution.getX0());
         double y0 = round(distribution.getY0());
         JSONArray jsonArray = new JSONArray();
         int n = points.size();
+        JSONObject object = new JSONObject();
         for(int i=0; i<n; i++){
             Point2D point = points.get(i);
             double x = point.getX();
@@ -78,19 +79,18 @@ public class ApplicationController {
 
             Double c = model.physicoChemical(x,y,h);
             if(c.isInfinite()||c.isNaN()) c = .0;
-            JSONObject object = new JSONObject();
+            object = new JSONObject();
             try {
                 object.put("x",x);
                 object.put("y",y);
-                object.put("c",c);
+                object.put("c", c);
             } catch (JSONException e) {
                 System.out.println("Error while create JSON with result");
                 e.printStackTrace();
             }
             jsonArray.put(object);
         }
-        JSONObject result = new JSONObject(jsonArray);
-        return result;
+        return jsonArray;
     }
 
     @RequestMapping(method = RequestMethod.GET)
@@ -136,7 +136,7 @@ public class ApplicationController {
             windSpeed = Double.parseDouble(jsonArr.getJSONObject(0).getString("windspeedKmph")) / 3.6;
             windDegree = Double.parseDouble(jsonArr.getJSONObject(0).getString("winddirDegree"));
         } catch (JSONException e) {
-            System.out.println("Error while convert JSON to weather data");
+            System.out.println("Error while convert JSON to weather points");
         }
         setRandomWindMap(distribution.getX0(), distribution.getY0(), windDegree, windSpeed);
         variables.setT((int) round(tempC));
@@ -185,8 +185,8 @@ public class ApplicationController {
             System.out.println("Error while convert JSON to heightMap");
         }
         variables.setHeightMap(heightMap);
-        JSONObject result = calculate();
-        return "dd";
+        JSONArray result = calculate();
+        return result.toString();
     }
 
     @RequestMapping(value="/test", method = RequestMethod.POST)

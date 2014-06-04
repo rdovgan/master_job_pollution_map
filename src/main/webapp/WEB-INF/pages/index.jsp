@@ -16,7 +16,7 @@
 </head>
 <body>
 <div class="container col-md-9 col-md-offset-3"><h1>Google Maps API 3</h1></div>
-<div id="1map-canvas" style="height: 450px; width: 100%;"></div>
+<div id="map-canvas" style="height: 450px; width: 100%;"></div>
 <br/>
 
 
