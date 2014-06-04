@@ -13,8 +13,9 @@ public class Main {
         Distribution distribution = new Distribution();
         Variables variables = new Variables();
         Model model = new Model(variables, distribution);
-        for(int i=0; i<100; i+=10)
-            System.out.println(i+" "+model.advection(i,i,20));
+        for(int i=0; i<100; i+=4)
+            System.out.println(i+" "+
+        model.physicoChemical(i,i,20));
     }
 
 }

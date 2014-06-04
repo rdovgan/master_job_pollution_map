@@ -58,14 +58,14 @@ public class Model {
         tLeft = t1;
         int n = (int) ((t2 - t1) / delta);
 //        while (abs(prevResult - result) > eps) {
-            prevResult = result;
-            result = 0;
-            for (int i = 0; i < n; i++) {
-                tRight = tLeft + delta;
-                t = (tRight + tLeft) / 2;
-                result += delta * integralAdvection(x, y, z, t, layer);
-                tLeft = tRight;
-            }
+        prevResult = result;
+        result = 0;
+        for (int i = 0; i < n; i++) {
+            tRight = tLeft + delta;
+            t = (tRight + tLeft) / 2;
+            result += delta * integralAdvection(x, y, z, t, layer);
+            tLeft = tRight;
+        }
 //        }
         double heightLayer = getHeightLayer(layer, vars.getH(x, y));
         double distribution = distr.getDistribution(x, y, z, t1);
@@ -88,10 +88,9 @@ public class Model {
         double k = vars.getKg(x, y, z);
         double d2x = distr.getD2x(x, y, z, t);
         double d2y = distr.getD2y(x, y, z, t);
-        double qe = vars.getQe(x, y, h);// in Qe() set h or z?
-        double result = h * k * (d2x + d2y) + h * qe;
-//        return eps(result);
-        return 0;
+        double qe = vars.getQe(x, y, h);
+        double result = (k * (d2x + d2y) + qe) * table.h(h);
+        return result;
     }
 
     public double layerHorizontalTurbulence(double x, double y, double z, int layer) {
@@ -101,19 +100,19 @@ public class Model {
         tLeft = t1;
         int n = (int) ((t2 - t1) / delta);
 //        while (abs(prevResult - result) > eps) {
-            prevResult = result;
-            result = 0;
-            for (int i = 0; i < n; i++) {
-                tRight = tLeft + delta;
-                t = (tRight + tLeft) / 2;
-                result += delta * integralHorizontalTurbulence(x, y, z, t, layer);
-                tLeft = tRight;
-            }
+        prevResult = result;
+        result = 0;
+        for (int i = 0; i < n; i++) {
+            tRight = tLeft + delta;
+            t = (tRight + tLeft) / 2;
+            result += delta * integralHorizontalTurbulence(x, y, z, t, layer);
+            tLeft = tRight;
+        }
 //        }
         int heightLayer = getHeightLayer(layer, vars.getH(x, y));
         double advection = layerAdvection(x, y, z, layer);
         result = advection + (result) / heightLayer;
-        return eps(result);
+        return result;
     }
 
     public double horizontalTurbulence(double x, double y, double z) {
@@ -121,7 +120,7 @@ public class Model {
         for (int l = 0; l < layerCount; l++) {
             totalResult += layerHorizontalTurbulence(x, y, z, l);
         }
-        return eps(totalResult);
+        return totalResult;
     }
 
     public double integralVerticalTurbulence(double x, double y, double z, double t, int layer) {
@@ -137,18 +136,18 @@ public class Model {
         tLeft = t1;
         int n = (int) ((t2 - t1) / delta);
 //        while (abs(prevResult - result) > eps) {
-            prevResult = result;
-            result = 0;
-            for (int i = 0; i < n; i++) {
-                tRight = tLeft + delta;
-                t = (tRight + tLeft) / 2;
-                result += delta * integralVerticalTurbulence(x, y, z, t, layer);
-                tLeft = tRight;
-            }
+        prevResult = result;
+        result = 0;
+        for (int i = 0; i < n; i++) {
+            tRight = tLeft + delta;
+            t = (tRight + tLeft) / 2;
+            result += delta * integralVerticalTurbulence(x, y, z, t, layer);
+            tLeft = tRight;
+        }
 //        }
         double horizontalTurbulence = layerHorizontalTurbulence(x, y, z, layer);
         result = horizontalTurbulence + result;
-        return eps(result);
+        return result;
     }
 
     public double verticalTurbulence(double x, double y, double z) {
@@ -156,11 +155,14 @@ public class Model {
         for (int l = 0; l < layerCount; l++) {
             totalResult += layerVerticalTurbulence(x, y, z, l);
         }
-        return eps(totalResult);
+        return totalResult;
     }
 
     public double integralPhysicoChemical(double x, double y, double z, double t, int layer) {
-        double result = table.getR(vars.getAtmosphere()) * getHeightLayer(layer, vars.getH(x, y)) * distr.getDistribution(x, y, z, t);
+        double r = table.getR(vars.getAtmosphere());
+        double h = getHeightLayer(layer, vars.getH(x, y));
+        double c = distr.getDistribution(x, y, z, t);
+        double result = r * h * c;
         return eps(result);
     }
 
@@ -171,19 +173,19 @@ public class Model {
         tLeft = t1;
         int n = (int) ((t2 - t1) / delta);
 //        while (abs(prevResult - result) > eps) {TODO:remove all 'while' or tLeft = t1;
-            prevResult = result;
-            result = 0;
-            for (int i = 0; i < n; i++) {
-                tRight = tLeft + delta;
-                t = (tRight + tLeft) / 2;
-                result += delta * integralPhysicoChemical(x, y, z, t, layer);
-                tLeft = tRight;
-            }
+        prevResult = result;
+        result = 0;
+        for (int i = 0; i < n; i++) {
+            tRight = tLeft + delta;
+            t = (tRight + tLeft) / 2;
+            result += delta * integralPhysicoChemical(x, y, z, t, layer);
+            tLeft = tRight;
+        }
 //        }
         double heightLayer = getHeightLayer(layer, vars.getH(x, y));
         double verticalTurbulence = layerVerticalTurbulence(x, y, z, layer);
-        result = verticalTurbulence - result / heightLayer;
-        return eps(result);
+        result = verticalTurbulence + result / heightLayer;
+        return result;
     }
 
     public double physicoChemical(double x, double y, double z) {
@@ -191,7 +193,7 @@ public class Model {
         for (int l = 0; l < layerCount; l++) {
             totalResult += layerPhysicoChemical(x, y, z, l);
         }
-        return eps(totalResult);
+        return totalResult;
     }
 
     public double getT1() {

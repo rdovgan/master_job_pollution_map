@@ -20,6 +20,16 @@ public final class Table {
     public static double speedChange = 0.8;
     public static double degreeChange = 20;
 
+    public static double gamaBegin;
+    public static double gamaEnd;
+
+    public static double gasSpeed;
+
+    public static void setAtmosphereForJ(char c){
+        gamaBegin = getJBegin(c);
+        gamaEnd = getJEnd(c);
+    }
+
     public static class TwoDoubles{
         public double d1;
         public double d2;
@@ -31,6 +41,8 @@ public final class Table {
     }
 
     public Table(){
+        gasSpeed = 0.5;
+
         m.put('A',0.08);
         m.put('B',0.165);
         m.put('C',0.215);
@@ -95,6 +107,12 @@ public final class Table {
         r.put('F', 0.43);
         r.put('G', 0.3);
 
+        gamaBegin = getJBegin('A');
+        gamaEnd = getJEnd('A');
+    }
+
+    public static double h(double h){
+        return 1./h;
     }
 
     public static Map<Character, Double> getM() {
@@ -137,7 +155,7 @@ public final class Table {
         return j.get(c).d1;
     }
 
-    public double getJEnd(char c){
+    public static double getJEnd(char c){
         return j.get(c).d2;
     }
 

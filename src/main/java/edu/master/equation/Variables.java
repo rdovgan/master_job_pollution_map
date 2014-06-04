@@ -32,10 +32,8 @@ public class Variables {
         heightMap = new TreeMap<Point2D, Integer>();
     }
 
-
-
     public double getQe(double x, double y, double z){
-        return getWind(x,y,z)*koefCp*(t0 / t)*(t-t0);
+        return PI/4.*table.gasSpeed*koefCp*(t0 / t)*(t-t0);
     }
 
     public int getH(double x, double y){
@@ -101,10 +99,6 @@ public class Variables {
         return sqrt(pow(getU3D(x, y, z), 2) + pow(getV3D(x, y, z), 2));
     }
 
-    public double getRichardsonNumber(double x, double y, double z) {
-        return 0;//TODO: get Richardson number
-    }
-
     public double getK1() {
         return 0.1;
     }
@@ -114,7 +108,7 @@ public class Variables {
     }
 
     public double getKg(double x, double y, double z) {
-        return getK1() * (z / getZ1()) * pow(1 - getRichardsonNumber(x, y, z), 1. / 2);
+        return getK1() * (z / getZ1()) * pow(1 - table.gamaBegin+random()*(table.gamaEnd-table.gamaBegin), 1. / 2);
     }
 
     public double getKz(double x, double y, double z) {
