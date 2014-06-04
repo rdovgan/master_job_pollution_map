@@ -58,6 +58,12 @@ public class ApplicationController {
         variables.setWindMap(windMap);
     }
 
+    public JSONObject calculateLayer(int layer){
+        JSONArray jsonArray = new JSONArray();
+        //TODO:create function
+        return new JSONObject(jsonArray);
+    }
+
     public JSONObject calculate() {
         model = new Model(variables, distribution);
         double x0 = round(distribution.getX0());
