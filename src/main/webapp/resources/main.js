@@ -67,6 +67,7 @@ $(document)
         //get json with weather
         getJSON();
         $('#sendValues').click(function () {
+            $("#getResult").removeClass("disabled");
             getHeightMap();
             $.ajax({
                 type: "post",
@@ -137,8 +138,6 @@ $(document)
     });
 
 function initialize() {
-    x.value = x0;
-    y.value = y0;
     var pos = new google.maps.LatLng(x0, y0);
     var mapOptions = {
         zoom: 13,
