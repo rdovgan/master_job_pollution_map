@@ -2,6 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="647904e6-09fa-4557-8cbf-0f196d173ae5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java" afterPath="$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/master/main/Main.java" afterPath="$PROJECT_DIR$/src/main/java/edu/master/main/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java" afterPath="$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/master/data/Point2D.java" afterPath="$PROJECT_DIR$/src/main/java/edu/master/data/Point2D.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java" afterPath="$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -70,7 +76,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="9" selection-start="779" selection-end="779" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="2533">
+            <state line="26" column="42" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-11.115385" vertical-offset="153" max-vertical-offset="2040">
               <folding />
             </state>
           </provider>
@@ -79,7 +85,7 @@
       <file leaf-file-name="Distribution.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Distribution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="22" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="2482">
+            <state line="25" column="22" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="1938">
               <folding />
             </state>
           </provider>
@@ -88,7 +94,7 @@
       <file leaf-file-name="Model.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="194" column="9" selection-start="6758" selection-end="6758" vertical-scroll-proportion="0.0" vertical-offset="3053" max-vertical-offset="4012">
+            <state line="168" column="18" selection-start="5654" selection-end="5654" vertical-scroll-proportion="0.0" vertical-offset="2658" max-vertical-offset="4012">
               <folding />
             </state>
           </provider>
@@ -97,7 +103,7 @@
       <file leaf-file-name="ApplicationController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="61" selection-start="4201" selection-end="4254" vertical-scroll-proportion="0.0" vertical-offset="1099" max-vertical-offset="3111">
+            <state line="85" column="5" selection-start="2952" selection-end="2952" vertical-scroll-proportion="0.0" vertical-offset="759" max-vertical-offset="3451">
               <folding />
             </state>
           </provider>
@@ -106,7 +112,7 @@
       <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="94" column="24" selection-start="2847" selection-end="2847" vertical-scroll-proportion="0.12929061" vertical-offset="1485" max-vertical-offset="4182">
+            <state line="185" column="0" selection-start="6125" selection-end="6125" vertical-scroll-proportion="0.56058156" vertical-offset="2798" max-vertical-offset="4471">
               <folding />
             </state>
           </provider>
@@ -115,7 +121,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="39" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
+            <state line="21" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
               <folding />
             </state>
           </provider>
@@ -124,7 +130,7 @@
       <file leaf-file-name="Point2D.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/data/Point2D.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="26" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1292">
+            <state line="18" column="25" selection-start="286" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1224">
               <folding />
             </state>
           </provider>
@@ -142,16 +148,7 @@
       <file leaf-file-name="Variables.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="71" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="3264">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Wind.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Wind.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="323">
+            <state line="50" column="39" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2839">
               <folding />
             </state>
           </provider>
@@ -178,14 +175,14 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/edu/master/main/AppTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Table.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/master/data/Point2D.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/data/Point3D.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/master/main/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Distribution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/master/main/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/master/data/Point2D.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java" />
-        <option value="$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/resources/main.js" />
       </list>
     </option>
@@ -205,64 +202,7 @@
     </option>
   </component>
   <component name="MavenProjectNavigator">
-    <treeState>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Master" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Master" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Master" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Plugins" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="tomcat7" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginNode" />
-        </PATH_ELEMENT>
-      </PATH>
-      <PATH>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Master" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
-        </PATH_ELEMENT>
-        <PATH_ELEMENT>
-          <option name="myItemId" value="Lifecycle" />
-          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
-        </PATH_ELEMENT>
-      </PATH>
-    </treeState>
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -409,7 +349,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -425,24 +364,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Master" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -621,6 +542,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1073,15 +995,36 @@
       <workItem from="1401351768413" duration="24743000" />
       <workItem from="1401435446288" duration="4842000" />
       <workItem from="1401808834965" duration="9420000" />
+      <workItem from="1401974467232" duration="9514000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104026000" />
+    <option name="totallyTimeSpent" value="113540000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1094,10 +1037,10 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14802982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3956757" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27567568" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20972973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1107,7 +1050,7 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14802982" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24121405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24121405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1142,13 +1085,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="66" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Distribution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="57" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0" vertical-offset="493" max-vertical-offset="2482">
@@ -1174,11 +1110,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3009">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#204#223#0" expanded="true" />
-            <element signature="e#460#480#0" expanded="true" />
-            <element signature="e#724#743#0" expanded="true" />
-            <element signature="e#804#823#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#204#223#0" expanded="false" />
+            <element signature="e#460#480#0" expanded="false" />
+            <element signature="e#724#743#0" expanded="false" />
+            <element signature="e#804#823#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1222,11 +1158,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="0" selection-start="827" selection-end="827" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="3009">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#204#223#0" expanded="true" />
-            <element signature="e#460#480#0" expanded="true" />
-            <element signature="e#724#743#0" expanded="true" />
-            <element signature="e#804#823#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#204#223#0" expanded="false" />
+            <element signature="e#460#480#0" expanded="false" />
+            <element signature="e#724#743#0" expanded="false" />
+            <element signature="e#804#823#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1277,11 +1213,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="49" selection-start="977" selection-end="977" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="3060">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#204#223#0" expanded="true" />
-            <element signature="e#460#480#0" expanded="true" />
-            <element signature="e#724#743#0" expanded="true" />
-            <element signature="e#804#823#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#204#223#0" expanded="false" />
+            <element signature="e#460#480#0" expanded="false" />
+            <element signature="e#724#743#0" expanded="false" />
+            <element signature="e#804#823#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1389,17 +1325,17 @@
           <ID>MAVEN</ID>
           <OriginalElement>com.springapp:Master:1.0-SNAPSHOT</OriginalElement>
           <nodes>
-            <node x="389.0" y="1444.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9</node>
             <node x="664.0" y="1064.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/de.zeigermann.xml:xml-im-exporter:jar:1.1</node>
+            <node x="389.0" y="1444.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9</node>
             <node x="523.0" y="1482.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
             <node x="214.0" y="228.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
             <node x="424.0" y="2128.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1/com.google.code.findbugs:jsr305:jar:2.0.1</node>
             <node x="460.0" y="2280.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.codehaus.plexus:plexus-component-annotations:jar:1.5.5</node>
             <node x="632.0" y="950.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="268.0" y="2394.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2</node>
-            <node x="450.0" y="2470.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5</node>
-            <node x="569.0" y="1748.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
             <node x="523.0" y="1520.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
+            <node x="569.0" y="1748.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
+            <node x="450.0" y="2470.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5</node>
             <node x="389.0" y="950.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9</node>
             <node x="436.0" y="2432.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
             <node x="436.0" y="2394.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8</node>
@@ -1420,8 +1356,8 @@
             <node x="692.0" y="1596.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="579.0" y="2584.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/commons-logging:commons-logging-api:jar:1.1</node>
             <node x="523.0" y="1558.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9</node>
-            <node x="460.0" y="2242.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
             <node x="411.0" y="2090.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-artifact:jar:2.0.6</node>
+            <node x="460.0" y="2242.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
             <node x="389.0" y="1178.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
             <node x="519.0" y="1216.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="97.0" y="456.0">javax.servlet.jsp:jsp-api:jar:2.1</node>
@@ -1430,8 +1366,8 @@
             <node x="348.0" y="114.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
             <node x="579.0" y="2546.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/log4j:log4j:jar:1.2.12</node>
             <node x="664.0" y="988.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2</node>
-            <node x="97.0" y="418.0">javax.servlet:servlet-api:jar:2.5</node>
             <node x="214.0" y="342.0">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="97.0" y="418.0">javax.servlet:servlet-api:jar:2.5</node>
             <node x="460.0" y="2166.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-plugin-api:jar:2.2.1</node>
             <node x="329.0" y="266.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
             <node x="452.0" y="2356.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
@@ -1484,8 +1420,8 @@
             <node x="233.0" y="608.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
             <node x="821.0" y="988.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2/commons-logging:commons-logging:jar:1.0.3</node>
             <node x="523.0" y="1444.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9</node>
-            <node x="389.0" y="1710.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
             <node x="340.0" y="380.0">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
+            <node x="389.0" y="1710.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
             <node x="97.0" y="494.0">org.springframework:spring-webmvc:jar:3.2.0.RELEASE</node>
             <node x="519.0" y="1178.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
             <node x="527.0" y="874.0">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
@@ -1516,28 +1452,28 @@
               <point x="167.5" y="2370.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2">
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
               <point x="0.0" y="0.0" />
-              <point x="313.5" y="1344.0" />
+              <point x="256.5" y="318.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8">
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-2">
               <point x="0.0" y="0.0" />
-              <point x="256.5" y="318.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0">
-              <point x="0.0" y="0.0" />
-              <point x="167.5" y="2066.0" />
+              <point x="313.5" y="1344.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="140.5" y="242.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0">
+              <point x="0.0" y="0.0" />
+              <point x="167.5" y="2066.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/de.zeigermann.xml:xml-im-exporter:jar:1.1">
@@ -1617,13 +1553,13 @@
               <point x="344.0" y="2522.0" />
               <point x="0.0" y="0.0" />
             </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-plugin-api:jar:2.2.1">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
             <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="150.0" y="660.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-plugin-api:jar:2.2.1">
-              <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
@@ -1645,23 +1581,14 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/commons-logging:commons-logging-api:jar:1.1">
-              <point x="0.0" y="0.0" />
-              <point x="499.5" y="2598.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/junit:junit:jar:3.8.2">
               <point x="0.0" y="0.0" />
               <point x="344.0" y="2674.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/commons-logging:commons-logging-api:jar:1.1">
               <point x="0.0" y="0.0" />
-              <point x="266.0" y="166.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1/com.google.code.findbugs:jsr305:jar:2.0.1">
-              <point x="0.0" y="0.0" />
+              <point x="499.5" y="2598.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE">
@@ -1669,14 +1596,23 @@
               <point x="33.5" y="508.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.json:json:jar:20080701">
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1/com.google.code.findbugs:jsr305:jar:2.0.1">
               <point x="0.0" y="0.0" />
-              <point x="33.5" y="2712.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-beans:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
+              <point x="266.0" y="166.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9">
               <point x="0.0" y="0.0" />
               <point x="464.5" y="1914.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="com.springapp:Master:1.0-SNAPSHOT" target="org.json:json:jar:20080701">
+              <point x="0.0" y="0.0" />
+              <point x="33.5" y="2712.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.springframework:spring-test:jar:3.2.0.RELEASE" target="org.springframework:spring-test:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
@@ -1694,13 +1630,13 @@
               <point x="441.0" y="1610.0" />
               <point x="0.0" y="0.0" />
             </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
             <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-artifact:jar:2.0.9">
               <point x="0.0" y="0.0" />
               <point x="313.5" y="1306.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
-            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-settings:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9">
-              <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-core:jar:2.0.6">
@@ -1946,14 +1882,14 @@
               <point x="441.0" y="1648.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9">
-              <point x="0.0" y="0.0" />
-              <point x="167.5" y="850.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="org.springframework:spring-webmvc:jar:3.2.0.RELEASE" target="org.springframework:spring-webmvc:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE">
               <point x="0.0" y="0.0" />
               <point x="150.0" y="622.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-artifact:jar:2.0.9">
+              <point x="0.0" y="0.0" />
+              <point x="167.5" y="850.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/jdom:jdom:jar:1.0">
@@ -1970,13 +1906,13 @@
               <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
-            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
-              <point x="0.0" y="0.0" />
-              <point x="0.0" y="0.0" />
-            </edge>
             <edge source="com.springapp:Master:1.0-SNAPSHOT" target="javax.servlet:servlet-api:jar:2.5">
               <point x="0.0" y="0.0" />
               <point x="33.5" y="432.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE" target="org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE">
+              <point x="0.0" y="0.0" />
               <point x="0.0" y="0.0" />
             </edge>
             <edge source="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9" target="org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9">
@@ -2016,11 +1952,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="168" column="24" selection-start="4432" selection-end="4432" vertical-scroll-proportion="0.7011719" vertical-offset="2225" max-vertical-offset="2737">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#204#223#0" expanded="true" />
-            <element signature="e#460#480#0" expanded="true" />
-            <element signature="e#724#743#0" expanded="true" />
-            <element signature="e#804#823#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#204#223#0" expanded="false" />
+            <element signature="e#460#480#0" expanded="false" />
+            <element signature="e#724#743#0" expanded="false" />
+            <element signature="e#804#823#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2042,23 +1978,9 @@
         <state line="40" column="22" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.33333334" vertical-offset="508" max-vertical-offset="1292" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/data/Point2D.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="26" selection-start="480" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="287" max-vertical-offset="1292">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/data/Point3D.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="16" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Wind.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <folding />
         </state>
       </provider>
@@ -2070,44 +1992,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/Main.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_40/src.zip!/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="39" selection-start="518" selection-end="518" vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="459">
+        <state line="434" column="6" selection-start="19325" selection-end="19325" vertical-scroll-proportion="0.33277312" vertical-offset="6789" max-vertical-offset="9911">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/data/Point2D.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="71" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="3264">
+        <state line="18" column="25" selection-start="286" selection-end="292" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1224">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Model.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="194" column="9" selection-start="6758" selection-end="6758" vertical-scroll-proportion="0.0" vertical-offset="3053" max-vertical-offset="4012">
+        <state line="168" column="18" selection-start="5654" selection-end="5654" vertical-scroll-proportion="0.0" vertical-offset="2658" max-vertical-offset="4012">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="61" selection-start="4201" selection-end="4254" vertical-scroll-proportion="0.0" vertical-offset="1099" max-vertical-offset="3111">
+        <state line="21" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Wind.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="211" selection-end="211" vertical-scroll-proportion="0.38273922" vertical-offset="0" max-vertical-offset="533">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/equation/Variables.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="39" selection-start="1278" selection-end="1278" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="2839">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="9" selection-start="779" selection-end="779" vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="2533">
+        <state line="26" column="42" selection-start="1282" selection-end="1282" vertical-scroll-proportion="-11.115385" vertical-offset="153" max-vertical-offset="2040">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/master/main/ApplicationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="5" selection-start="2952" selection-end="2952" vertical-scroll-proportion="0.0" vertical-offset="759" max-vertical-offset="3451">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="24" selection-start="2847" selection-end="2847" vertical-scroll-proportion="0.12929061" vertical-offset="1485" max-vertical-offset="4182">
+        <state line="185" column="0" selection-start="6125" selection-end="6125" vertical-scroll-proportion="0.56058156" vertical-offset="2798" max-vertical-offset="4471">
           <folding />
         </state>
       </provider>

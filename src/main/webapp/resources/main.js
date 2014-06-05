@@ -1,10 +1,11 @@
-var map, pointArray, heatmap;
+var map, heatmap, heatMapGreen;
 var count = 0;
 x0 = 48.291174;
 y0 = 25.923094;
 var step;
 step = 0;
 var points = [];
+var pointsGreen = [];
 
 var cellCount = 20;
 var cellWidth = 1000;
@@ -75,6 +76,7 @@ $(document)
                 data: "output=" + output + "&x0=" + x0 + "&y0=" + y0 + "&height=" + height + "&sigX=" + sigX + "&sigY=" + sigY + "&sigZ=" +
                     sigZ + "&atmosphere=" + atmosphere,
                 success: function (response) {
+                    console.info("Send values: success");
                 },
                 error: function (e) {
                     console.error(e);
@@ -85,35 +87,7 @@ $(document)
                 url: "getJSON",
                 data: json,
                 success: function (response) {
-                },
-                error : function(e){
-                    console.error(e);
-                }
-            });
-        });
-
-        $('#getResult').click(function () {
-            points = [];
-            $.ajax({
-                type: "post",
-                url: "getHeightMap",
-                data: JSON.stringify(heightMap),
-                success: function (data) {
-                    var result = $.parseJSON(data);
-                    var redPoints = 0;
-                    for(i=0; i<result.length; i++){
-                        if(result[i].c > 1)
-                            redPoints++;
-                    }
-                    for(i=0; i<result.length; i++){
-                        if(result[i].c > output * 0.001){
-                            var xPoint = result[i].x / cellWidth;
-                            var yPoint = result[i].y / cellWidth;
-                            var point = new google.maps.LatLng(x,y);
-                            points.push(new google.maps.LatLng(xPoint, yPoint));
-                        }
-                    }
-                    initialize();
+                    console.info("Send JSON: success");
                 },
                 error : function(e){
                     console.error(e);
@@ -135,6 +109,38 @@ $(document)
             ];
             initialize();
         });
+
+        $('#getResult').click(function () {
+            points = [];
+            pointsGreen = [];
+            $.ajax({
+                type: "post",
+                url: "getHeightMap",
+                data: JSON.stringify(heightMap),
+                success: function (data) {
+                    console.info("Get result: success");
+                    var result = $.parseJSON(data);
+                    for(i=0; i<result.length; i++){
+                        if(result[i].c > output * 0.01){
+                            var xPoint = result[i].x;
+                            var yPoint = result[i].y;
+                            var point = new google.maps.LatLng(x,y);
+                            points.push(new google.maps.LatLng(xPoint, yPoint));
+                        }
+                        else if(result[i].c > output * 0.001){
+                            var xPoint = result[i].x;
+                            var yPoint = result[i].y;
+                            var point = new google.maps.LatLng(x,y);
+                            pointsGreen.push(new google.maps.LatLng(xPoint, yPoint));
+                        }
+                    }
+                    initialize();
+                },
+                error : function(e){
+                    console.error(e);
+                }
+            });
+        });
     });
 
 function initialize() {
@@ -149,10 +155,17 @@ function initialize() {
         mapOptions);
 
     var pointArray = new google.maps.MVCArray(points);
+    var pointArrayGreen = new google.maps.MVCArray(pointsGreen);
 
     heatmap = new google.maps.visualization.HeatmapLayer({
         data: pointArray
     });
+    heatmap.setOptions({radius: 40});
+
+    heatMapGreen = new google.maps.visualization.HeatmapLayer({
+        data: pointArrayGreen
+    });
+    heatMapGreen.setOptions({radius: 20});
 
     marker = new google.maps.Marker({
         map: map,
@@ -162,13 +175,18 @@ function initialize() {
     });
 
     google.maps.event.addListener(marker, 'dragend', function () {
-        x.value = marker.position.lat();
-        y.value = marker.position.lng();
-        x0 = x.value;
-        y0 = y.value;
+        var x,y;
+        x = marker.position.lat();
+        y = marker.position.lng();
+        x0 = x;
+        y0 = y;
+        $('#x0').val(x);
+        $('#y0').val(y);
     });
 
+    heatMapGreen.setMap(map);
     heatmap.setMap(map);
+    console.warn("Draw map");
 }
 
 function changeGradient() {
