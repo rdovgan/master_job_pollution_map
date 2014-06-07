@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="647904e6-09fa-4557-8cbf-0f196d173ae5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/resources/main.js" afterPath="$PROJECT_DIR$/src/main/webapp/resources/main.js" />
-    </list>
+    <list default="true" id="647904e6-09fa-4557-8cbf-0f196d173ae5" name="Default" comment="" />
     <ignored path="Master.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,7 +67,7 @@
       <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="25" selection-start="2020" selection-end="2020" vertical-scroll-proportion="-12.153846" vertical-offset="857" max-vertical-offset="4165">
+            <state line="69" column="25" selection-start="2020" selection-end="2020" vertical-scroll-proportion="0.0" vertical-offset="857" max-vertical-offset="4165">
               <folding />
             </state>
           </provider>
@@ -79,7 +76,7 @@
       <file leaf-file-name="index.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="69" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.4090909" vertical-offset="561" max-vertical-offset="2142">
+            <state line="42" column="69" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.13636364" vertical-offset="663" max-vertical-offset="2142">
               <folding />
             </state>
           </provider>
@@ -308,7 +305,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -519,7 +516,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -976,11 +973,12 @@
       <workItem from="1401731335826" duration="8276000" />
       <workItem from="1401826710654" duration="2997000" />
       <workItem from="1401911390142" duration="8063000" />
+      <workItem from="1402156736009" duration="94000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90531000" />
+    <option name="totallyTimeSpent" value="90625000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1009,7 +1007,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14879154" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26586103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30731708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30731708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1021,12 +1019,12 @@
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43414634" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Jelastic" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
@@ -1047,8 +1045,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.14879154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1285,17 +1283,17 @@
           <ID>MAVEN</ID>
           <OriginalElement>com.springapp:Master:1.0-SNAPSHOT</OriginalElement>
           <nodes>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/de.zeigermann.xml:xml-im-exporter:jar:1.1</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-utils:jar:0.1/com.google.code.findbugs:jsr305:jar:2.0.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.codehaus.plexus:plexus-component-annotations:jar:1.5.5</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-model:jar:2.0.9</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-descriptor:jar:2.0.9/org.apache.maven:maven-plugin-api:jar:2.0.9</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.codehaus.plexus:plexus-utils:jar:1.4.5</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-javac:jar:2.2/org.codehaus.plexus:plexus-utils:jar:3.0.8</node>
@@ -1316,8 +1314,8 @@
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-plugin-registry:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/commons-logging:commons-logging-api:jar:1.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-project:jar:2.0.9/org.apache.maven:maven-artifact-manager:jar:2.0.9</node>
-            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-toolchain:jar:1.0/org.apache.maven:maven-artifact:jar:2.0.6</node>
+            <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven.shared:maven-shared-utils:jar:0.1</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven:maven-profile:jar:2.0.9/org.codehaus.plexus:plexus-utils:jar:1.5.1</node>
             <node x="" y="">javax.servlet.jsp:jsp-api:jar:2.1</node>
@@ -1326,8 +1324,8 @@
             <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-context:jar:3.2.0.RELEASE/org.springframework:spring-expression:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-container-default:jar:1.5.5/org.apache.xbean:xbean-reflect:jar:3.4/log4j:log4j:jar:1.2.12</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven:maven-core:jar:2.0.9/org.apache.maven.wagon:wagon-webdav:jar:1.0-beta-2/slide:slide-webdavlib:jar:2.1/commons-httpclient:commons-httpclient:jar:2.0.2</node>
-            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/aopalliance:aopalliance:jar:1.0</node>
+            <node x="" y="">javax.servlet:servlet-api:jar:2.5</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.apache.maven.shared:maven-shared-incremental:jar:1.1/org.apache.maven:maven-plugin-api:jar:2.2.1</node>
             <node x="" y="">org.springframework:spring-web:jar:3.2.0.RELEASE/org.springframework:spring-aop:jar:3.2.0.RELEASE/org.springframework:spring-core:jar:3.2.0.RELEASE</node>
             <node x="" y="">org.apache.maven.plugins:maven-compiler-plugin:jar:3.1/org.codehaus.plexus:plexus-compiler-manager:jar:2.2/org.codehaus.plexus:plexus-compiler-api:jar:2.2</node>
@@ -1512,14 +1510,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/resources/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="25" selection-start="2020" selection-end="2020" vertical-scroll-proportion="-12.153846" vertical-offset="857" max-vertical-offset="4165">
+        <state line="69" column="25" selection-start="2020" selection-end="2020" vertical-scroll-proportion="0.0" vertical-offset="857" max-vertical-offset="4165">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/pages/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="69" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.4090909" vertical-offset="561" max-vertical-offset="2142">
+        <state line="42" column="69" selection-start="1817" selection-end="1817" vertical-scroll-proportion="0.13636364" vertical-offset="663" max-vertical-offset="2142">
           <folding />
         </state>
       </provider>
