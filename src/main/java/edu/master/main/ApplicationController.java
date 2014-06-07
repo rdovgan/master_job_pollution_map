@@ -58,31 +58,50 @@ public class ApplicationController {
         variables.setWindMap(windMap);
     }
 
-    public JSONObject calculateLayer(int layer){
-        JSONArray jsonArray = new JSONArray();
-        //TODO:create function
-        return new JSONObject(jsonArray);
-    }
-
-    public JSONArray calculate() {
+    public JSONArray calculateLayer(int layer){
         model = new Model(variables, distribution);
-        double x0 = round(distribution.getX0());
-        double y0 = round(distribution.getY0());
         JSONArray jsonArray = new JSONArray();
         int n = points.size();
         JSONObject object = new JSONObject();
         for(int i=0; i<n; i++){
             Point2D point = points.get(i);
-            double x = point.getX();
-            double y = point.getY();
-            double h = model.getVars().getHeight(x,y);
+            long x = point.getX();
+            long y = point.getY();
+            int h = model.getVars().getHeight(x,y);
+
+            Double c = model.layerPhysicoChemical(x,y,h,layer);
+            if(c.isInfinite()||c.isNaN()) c = .0;
+            object = new JSONObject();
+            try {
+                object.put("x",x/cellWidth);
+                object.put("y",y/cellWidth);
+                object.put("c", c);
+            } catch (JSONException e) {
+                System.out.println("Error while create JSON with result");
+                e.printStackTrace();
+            }
+            jsonArray.put(object);
+        }
+        return jsonArray;
+    }
+
+    public JSONArray calculate() {
+        model = new Model(variables, distribution);
+        JSONArray jsonArray = new JSONArray();
+        int n = points.size();
+        JSONObject object = new JSONObject();
+        for(int i=0; i<n; i++){
+            Point2D point = points.get(i);
+            long x = point.getX();
+            long y = point.getY();
+            int h = model.getVars().getHeight(x,y);
 
             Double c = model.physicoChemical(x,y,h);
             if(c.isInfinite()||c.isNaN()) c = .0;
             object = new JSONObject();
             try {
-                object.put("x",x);
-                object.put("y",y);
+                object.put("x",x/cellWidth);
+                object.put("y",y/cellWidth);
                 object.put("c", c);
             } catch (JSONException e) {
                 System.out.println("Error while create JSON with result");
@@ -186,6 +205,7 @@ public class ApplicationController {
         }
         variables.setHeightMap(heightMap);
         JSONArray result = calculate();
+        System.out.println(result.toString());
         return result.toString();
     }
 

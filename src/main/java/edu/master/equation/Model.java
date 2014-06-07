@@ -39,7 +39,7 @@ public class Model {
         return result;
     }
 
-    public double integralAdvection(double x, double y, double z, double t, int layer) {
+    public double integralAdvection(long x, long y, long z, double t, int layer) {
         int h = getHeightLayer(layer, vars.getH(x, y));
         double dx = distr.getDx(x, y, z, t);
         double dy = distr.getDy(x, y, z, t);
@@ -51,7 +51,7 @@ public class Model {
         return result;//TODO:check advection; add eps
     }
 
-    public double layerAdvection(double x, double y, double z, int layer) {
+    public double layerAdvection(long x, long y, long z, int layer) {
         double result = 0;
         double prevResult = -1;
         double tLeft, tRight, t;
@@ -74,7 +74,7 @@ public class Model {
     }
 
     //return concentration of point for all layers
-    public double advection(double x, double y, double z) {
+    public double advection(long x, long y, long z) {
         double totalResult = 0;
         for (int l = 0; l < layerCount; l++) {
             totalResult += layerAdvection(x, y, z, l);
@@ -82,7 +82,7 @@ public class Model {
         return totalResult;//add eps
     }
 
-    public double integralHorizontalTurbulence(double x, double y, double z, double t, int layer) {
+    public double integralHorizontalTurbulence(long x, long y, long z, double t, int layer) {
         int h = getHeightLayer(layer, vars.getH(x, y));
         //TODO:large result
         double k = vars.getKg(x, y, z);
@@ -93,7 +93,7 @@ public class Model {
         return result;
     }
 
-    public double layerHorizontalTurbulence(double x, double y, double z, int layer) {
+    public double layerHorizontalTurbulence(long x, long y, long z, int layer) {
         double result = 0;
         double prevResult = -1;
         double tLeft, tRight, t;
@@ -115,7 +115,7 @@ public class Model {
         return result;
     }
 
-    public double horizontalTurbulence(double x, double y, double z) {
+    public double horizontalTurbulence(long x, long y, long z) {
         double totalResult = 0;
         for (int l = 0; l < layerCount; l++) {
             totalResult += layerHorizontalTurbulence(x, y, z, l);
@@ -123,13 +123,13 @@ public class Model {
         return totalResult;
     }
 
-    public double integralVerticalTurbulence(double x, double y, double z, double t, int layer) {
+    public double integralVerticalTurbulence(long x, long y, long z, double t, int layer) {
         int h = getHeightLayer(layer, vars.getH(x, y));
         double result = vars.getDKz(x, y, z) * distr.getDz(x, y, z, t);
         return eps(result);
     }
 
-    public double layerVerticalTurbulence(double x, double y, double z, int layer) {
+    public double layerVerticalTurbulence(long x, long y, long z, int layer) {
         double result = 0;
         double prevResult = -1;
         double tLeft, tRight, t;
@@ -150,7 +150,7 @@ public class Model {
         return result;
     }
 
-    public double verticalTurbulence(double x, double y, double z) {
+    public double verticalTurbulence(long x, long y, long z) {
         double totalResult = 0;
         for (int l = 0; l < layerCount; l++) {
             totalResult += layerVerticalTurbulence(x, y, z, l);
@@ -158,7 +158,7 @@ public class Model {
         return totalResult;
     }
 
-    public double integralPhysicoChemical(double x, double y, double z, double t, int layer) {
+    public double integralPhysicoChemical(long x, long y, long z, double t, int layer) {
         double r = table.getR(vars.getAtmosphere());
         double h = getHeightLayer(layer, vars.getH(x, y));
         double c = distr.getDistribution(x, y, z, t);
@@ -166,7 +166,7 @@ public class Model {
         return eps(result);
     }
 
-    public double layerPhysicoChemical(double x, double y, double z, int layer) {
+    public double layerPhysicoChemical(long x, long y, long z, int layer) {
         double result = 0;
         double prevResult = -1;
         double tLeft, tRight, t;
@@ -188,7 +188,7 @@ public class Model {
         return result;
     }
 
-    public double physicoChemical(double x, double y, double z) {
+    public double physicoChemical(long x, long y, long z) {
         double totalResult = 0;
         for (int l = 0; l < layerCount; l++) {
             totalResult += layerPhysicoChemical(x, y, z, l);

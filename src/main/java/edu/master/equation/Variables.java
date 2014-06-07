@@ -36,22 +36,27 @@ public class Variables {
         return PI/4.*table.gasSpeed*koefCp*(t0 / t)*(t-t0);
     }
 
-    public int getH(double x, double y){
-        return (int)(random()*100+100);//TODO: get value from heightMap
+    public int getH(long x, long y){
+        if(heightMap == null)
+            return 0;
+        return getHeight(x,y);
     }
 
-    public Wind getWind(double x, double y){
-        if(windMap==null)   return new Wind(1,1);
-        x = round(x* cellWidth)/ cellWidth;//TODO:check x and y
-        y = round(y* cellWidth)/ cellWidth;
+    public Wind getWind(long x, long y){
+        if((windMap==null)||(windMap.isEmpty())) {
+            System.out.println(this.getClass()+" method getWind(): windMap is empty or null");
+            return new Wind(1,1);
+        }
         Point2D point = new Point2D(x,y);
-        Wind wind = windMap.get(point);//TODO:windMap is empty
+        Wind wind = windMap.get(point);
         if(wind == null){
             Map.Entry<Point2D, Wind> high = windMap.ceilingEntry(point);
             if(high==null){
                 Map.Entry<Point2D, Wind> low = windMap.floorEntry(point);
-                if(low==null)
+                if(low==null){
+                    System.out.println(this.getClass()+" method getWind() return (1,1)");
                     return new Wind(1,1);
+                }
                 return low.getValue();
             }
             return high.getValue();
@@ -59,18 +64,18 @@ public class Variables {
         return wind;
     }
 
-    public int getHeight(double x, double y){
+    public int getHeight(long x, long y){
         if(heightMap==null)   return 0;
-        x = round(x* cellWidth)/ cellWidth;
-        y = round(y* cellWidth)/ cellWidth;
         Point2D point = new Point2D(x,y);
         Integer h = heightMap.get(point);
         if(h == null){
             Map.Entry<Point2D, Integer> high = heightMap.ceilingEntry(point);
             if(high==null){
                 Map.Entry<Point2D, Integer> low = heightMap.floorEntry(point);
-                if(low==null)
+                if(low==null){
+                    System.out.println(this.getClass()+" method getHeight() return 0");
                     return 0;
+                }
                 return low.getValue();
             }
             return high.getValue();
@@ -78,24 +83,23 @@ public class Variables {
         return h;
     }
 
-    public double getU2D(double x, double y) {
-        //TODO:return wrong values
+    public double getU2D(long x, long y) {
         return getWind(x,y).u;
     }
 
-    public double getV2D(double x, double y) {
+    public double getV2D(long x, long y) {
         return getWind(x,y).v;
     }
 
-    public double getU3D(double x, double y, double z) {
+    public double getU3D(long x, long y, long z) {
         return getU2D(x, y)*pow(z/getH(x,y), table.getM(atmosphere));
     }
 
-    public double getV3D(double x, double y, double z) {
+    public double getV3D(long x, long y, long z) {
         return getV2D(x, y)*pow(z/getH(x,y), table.getM(atmosphere));
     }
 
-    public double getWind(double x, double y, double z) {
+    public double getWind(long x, long y, long z) {
         return sqrt(pow(getU3D(x, y, z), 2) + pow(getV3D(x, y, z), 2));
     }
 
@@ -107,11 +111,11 @@ public class Variables {
         return 1;
     }
 
-    public double getKg(double x, double y, double z) {
+    public double getKg(long x, long y, long z) {
         return getK1() * (z / getZ1()) * pow(1 - table.gamaBegin+random()*(table.gamaEnd-table.gamaBegin), 1. / 2);
     }
 
-    public double getKz(double x, double y, double z) {
+    public double getKz(long x, long y, long z) {
         int h = getH(x,y);
         if (z <= h) {
             return getK1() * pow(z / getZ1(), 1 - E);
@@ -120,7 +124,7 @@ public class Variables {
         }
     }
 
-    public double getDKz(double x, double y, double z){
+    public double getDKz(long x, long y, long z){
         int h = getH(x,y);
         if(z <= h){
             return -(E-1.)*getK1()*pow(z/getZ1(), -E)/getZ1();

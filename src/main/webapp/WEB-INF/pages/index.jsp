@@ -16,22 +16,16 @@
 </head>
 <body>
 <div class="container col-md-9 col-md-offset-3"><h1>Google Maps API 3</h1></div>
-<div id="map-canvas" style="height: 450px; width: 100%;"></div>
+<div id="map-canvas" style="height: 75%; width: 100%;"></div>
 <br/>
 
 
-<div class="container col-md-9 col-md-offset-2">
-    <div class="col-md-1">
-        <div>
-            <a id="sendProperties" class="btn btn-info btn-lg"
-               data-toggle="modal" data-target="#properties-modal"><span class="glyphicon glyphicon-pencil"></span></a>
-        </div>
-    </div>
-    <div class="col-md-2">
-        <div>
-            <a id="getResult" class="btn btn-warning btn-lg disabled">Get result</a>
-        </div>
-    </div>
+<div class="form-inline col-md-offset-2">
+        <a id="sendProperties" class="btn btn-info btn-lg"
+           data-toggle="modal" data-target="#properties-modal"><span class="glyphicon glyphicon-pencil"></span></a>
+        <a id="getResult" class="btn btn-warning btn-lg disabled">Get result</a>
+        <a id="test" class="btn btn-danger btn-lg">Test</a>
+
 </div>
 
 <div class="modal fade" id="properties-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"

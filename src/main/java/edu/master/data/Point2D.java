@@ -21,7 +21,7 @@ public class Point2D implements Comparable<Point2D>{
         this.y = round(y);
     }
 
-    public double getX() {
+    public long getX() {
         return x;
     }
 
@@ -29,7 +29,7 @@ public class Point2D implements Comparable<Point2D>{
         this.x = round(x);
     }
 
-    public double getY() {
+    public long getY() {
         return y;
     }
 
