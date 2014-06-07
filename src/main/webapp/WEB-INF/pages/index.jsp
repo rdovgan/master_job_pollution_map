@@ -15,7 +15,11 @@
     <script src="../../resources/main.js" type="text/javascript"></script>
 </head>
 <body>
-<div class="container col-md-9 col-md-offset-3"><h1>Google Maps API 3</h1></div>
+<div class="col-md-8 col-md-offset-2"><h1>Моделювання розповсюдження забруднень в повітрі </h1></div>
+<div style="float: right; margin-top:20px; margin-right:20px;">
+    <a id="info" class="btn btn-info btn-lg"
+       data-toggle="modal" data-target="#info-modal"><span class="glyphicon glyphicon-info-sign"></span></a>
+</div>
 <div id="map-canvas" style="height: 75%; width: 100%;"></div>
 <br/>
 
@@ -23,8 +27,8 @@
 <div class="form-inline col-md-offset-2">
         <a id="sendProperties" class="btn btn-info btn-lg"
            data-toggle="modal" data-target="#properties-modal"><span class="glyphicon glyphicon-pencil"></span></a>
-        <a id="getResult" class="btn btn-warning btn-lg disabled">Get result</a>
-        <a id="test" class="btn btn-danger btn-lg">Test</a>
+        <a id="getResult" class="btn btn-warning btn-lg disabled">Результат</a>
+        <a id="clear" class="btn btn-danger btn-lg">Очистити</a>
 
 </div>
 
@@ -34,15 +38,36 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Send values</h4>
+                <h4 class="modal-title" id="myModalLabel">Задайте параметри</h4>
             </div>
-            <div class="modal-body" style="min-height: 260px;">
+            <div class="modal-body" style="min-height: 280px;">
                 <div class="col-xs-12">
-                    <div class="col-xs-3"><label for="output">Output </label><input type="text" id="output"
+                    <div class="col-xs-4"><label for="output">Маса речовини (г) </label><input type="text" id="output"
                                                                                     class="form-control"
                                                                                     value="200">
                     </div>
-                    <div class="col-xs-3"><label for="atmosphere">Atmosphere </label>
+                    <div class="col-xs-4"><label for="x0">X<sub>0</sub> </label><input type="text" id="x0"
+                                                                                       class="form-control"
+                                                                                       value="48.291174">
+                    </div>
+                    <div class="col-xs-4"><label for="y0">Y<sub>0</sub> </label><input type="text" id="y0"
+                                                                                       class="form-control"
+                                                                                       value="25.923094">
+                    </div>
+
+                    <div class="col-xs-4"><label for="sigX">&sigma;<sub>x</sub> </label><input type="text" id="sigX"
+                                                                                               class="form-control"
+                                                                                               value="9">
+                    </div>
+                    <div class="col-xs-4"><label for="sigY">&sigma;<sub>y</sub> </label><input type="text" id="sigY"
+                                                                                               class="form-control"
+                                                                                               value="8">
+                    </div>
+                    <div class="col-xs-4"><label for="sigZ">&sigma;<sub>z</sub> </label><input type="text" id="sigZ"
+                                                                                               class="form-control"
+                                                                                               value="7">
+                    </div>
+                    <div class="col-xs-4"><label for="atmosphere">Тип атмосфери </label>
                         <select id="atmosphere" class="form-control">
                             <option>A</option>
                             <option>B</option>
@@ -53,51 +78,24 @@
                             <option>G</option>
                         </select>
                     </div>
-                    <div class="col-xs-3"><label for="x0">X<sub>0</sub> </label><input type="text" id="x0"
-                                                                                       class="form-control"
-                                                                                       value="48.291174">
-                    </div>
-                    <div class="col-xs-3"><label for="y0">Y<sub>0</sub> </label><input type="text" id="y0"
-                                                                                       class="form-control"
-                                                                                       value="25.923094">
-                    </div>
-                    <div class="col-xs-3"><label for="height">Height </label><input type="text" id="height"
-                                                                                    class="form-control"
-                                                                                    value="300">
-                    </div>
-                    <div class="col-xs-3"><label for="sigX">&sigma;<sub>x</sub> </label><input type="text" id="sigX"
-                                                                                               class="form-control"
-                                                                                               value="9">
-                    </div>
-                    <div class="col-xs-3"><label for="sigY">&sigma;<sub>y</sub> </label><input type="text" id="sigY"
-                                                                                               class="form-control"
-                                                                                               value="8">
-                    </div>
-                    <div class="col-xs-3"><label for="sigZ">&sigma;<sub>z</sub> </label><input type="text" id="sigZ"
-                                                                                               class="form-control"
-                                                                                               value="7">
-                    </div>
-                    <div class="col-xs-3"><label for="timeBegin">Time begin </label><input type="text" id="timeBegin"
-                                                                                           class="form-control"
-                                                                                           value="0">
-                    </div>
-                    <div class="col-xs-3"><label for="timeEnd">Time end </label><input type="text" id="timeEnd"
+                    <div class="col-xs-4"><label for="timeEnd">Тривалість (с)</label><input type="text" id="timeEnd"
                                                                                        class="form-control"
                                                                                        value="360">
                     </div>
-                    <div class="col-xs-3"><label for="timeDelta">Time delta </label><input type="text" id="timeDelta"
+                    <div class="col-xs-4"><label for="timeDelta">Проміжок (с) </label><input type="text" id="timeDelta"
                                                                                            class="form-control"
                                                                                            value="60">
                     </div>
-                    <div class="col-xs-3"><label for="eps">Epsilon </label><input type="text" id="eps"
-                                                                                  class="form-control"
-                                                                                  value="0.01">
+
+                    <div class="col-xs-4"><label for="height">Висота викиду джерела(м)</label><input type="text" id="height"
+                                                                                              class="form-control"
+                                                                                              value="300">
                     </div>
-                    <div class="col-xs-3"><label for="layerCount">Layer count </label><input type="text" id="layerCount"
+                    <div class="col-xs-4"><label for="layerCount">Кількість атмосферних шарів </label><input type="text" id="layerCount"
                                                                                              class="form-control"
                                                                                              value="5">
                     </div>
-                    <div class="col-xs-3"><label for="layerHeight">Layer height </label><input type="text"
+                    <div class="col-xs-4"><label for="layerHeight">Товщина атмосферних шарів </label><input type="text"
                                                                                                id="layerHeight"
                                                                                                class="form-control"
                                                                                                value="200">
@@ -105,8 +103,29 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" id="sendValues" data-dismiss="modal" class="btn btn-primary">Send</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">Відміна</button>
+                <button type="button" id="sendValues" data-dismiss="modal" class="btn btn-primary">Відправити</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="modal fade" id="info-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">Інформація</h4>
+            </div>
+            <div class="modal-body" style="min-height: 280px;">
+                <div class="col-xs-12">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
             </div>
         </div>
     </div>

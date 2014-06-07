@@ -1,9 +1,10 @@
-var map, heatmap, heatMapGreen;
+var map, heatmap, heatMapGreen, heatMax;
 var count = 0;
 x0 = 48.291174;
 y0 = 25.923094;
 var step;
 step = 0;
+var maxPoint = [];
 var points = [];
 var pointsGreen = [];
 
@@ -94,25 +95,18 @@ $(document)
                 }
             });
         });
-        $('#test').click(function () {
-            points = [
-                new google.maps.LatLng(48.291174, 25.929094),
-                new google.maps.LatLng(48.293134, 25.926024),
-                new google.maps.LatLng(48.297134, 25.963024),
-                new google.maps.LatLng(48.293634, 25.913024),
-                new google.maps.LatLng(48.293154, 25.927024),
-                new google.maps.LatLng(48.243134, 25.922024),
-                new google.maps.LatLng(48.253134, 25.925024),
-                new google.maps.LatLng(48.263134, 25.923024),
-                new google.maps.LatLng(48.223134, 25.923324),
-                new google.maps.LatLng(48.271124, 25.913434)
-            ];
+        $('#clear').click(function () {
+            $("#getResult").addClass("disabled");
+            points = [];
+            pointsGreen = [];
+            maxPoint = [];
             initialize();
         });
 
         $('#getResult').click(function () {
             points = [];
             pointsGreen = [];
+            maxPoint = [];
             $.ajax({
                 type: "post",
                 url: "getHeightMap",
@@ -120,6 +114,8 @@ $(document)
                 success: function (data) {
                     console.info("Get result: success");
                     var result = $.parseJSON(data);
+                    q = findMax(result);
+                    maxPoint.push(new google.maps.LatLng(result[q].x, result[q].y));
                     for(i=0; i<result.length; i++){
                         if(result[i].c > output * 0.01){
                             var xPoint = result[i].x;
@@ -156,6 +152,7 @@ function initialize() {
 
     var pointArray = new google.maps.MVCArray(points);
     var pointArrayGreen = new google.maps.MVCArray(pointsGreen);
+    var pointOne = new google.maps.MVCArray(maxPoint);
 
     heatmap = new google.maps.visualization.HeatmapLayer({
         data: pointArray
@@ -166,6 +163,11 @@ function initialize() {
         data: pointArrayGreen
     });
     heatMapGreen.setOptions({radius: 20});
+
+    heatMax = new google.maps.visualization.HeatmapLayer({
+        data: pointOne
+    });
+    heatMax.setOptions({radius: 60});
 
     marker = new google.maps.Marker({
         map: map,
@@ -183,30 +185,65 @@ function initialize() {
         $('#x0').val(x);
         $('#y0').val(y);
     });
-
+    changeGradient();
+    changeGradientRed();
     heatMapGreen.setMap(map);
     heatmap.setMap(map);
+//    heatMax.setMap(map);
     console.warn("Draw map");
+}
+
+function findMax(data){
+    max = data[0].c;
+    maxi = 0;
+    for(i=0; i< data.length; i++){
+        if(data[i].c > max){
+            max = data[i].c;
+            maxi = i;
+        }
+    }
+    return maxi;
 }
 
 function changeGradient() {
     var gradient = [
-        'rgba(0, 255, 255, 0)',
-        'rgba(0, 255, 255, 1)',
-        'rgba(0, 191, 255, 1)',
-        'rgba(0, 127, 255, 1)',
-        'rgba(0, 63, 255, 1)',
-        'rgba(0, 0, 255, 1)',
-        'rgba(0, 0, 223, 1)',
-        'rgba(0, 0, 191, 1)',
-        'rgba(0, 0, 159, 1)',
-        'rgba(0, 0, 127, 1)',
-        'rgba(63, 0, 91, 1)',
-        'rgba(127, 0, 63, 1)',
-        'rgba(191, 0, 31, 1)',
-        'rgba(255, 0, 0, 1)'
+        'rgba(200, 200, 200, 0)',
+        'rgba(180, 200, 180, 1)',
+        'rgba(160, 200, 160, 1)',
+        'rgba(140, 200, 140, 1)',
+        'rgba(120, 190, 120, 1)',
+        'rgba(100, 190, 100, 1)',
+        'rgba(70, 180, 70, 1)',
+        'rgba(40, 180, 40, 1)',
+        'rgba(10, 170, 10, 1)',
+        'rgba(0, 170, 0, 1)',
+        'rgba(0, 160, 0, 1)',
+        'rgba(0, 160, 0, 1)',
+        'rgba(0, 150, 0, 1)',
+        'rgba(0, 150, 0, 1)'
     ]
-    heatmap.set('gradient', heatmap.get('gradient') ? null : gradient);
+    heatMapGreen.set('gradient', heatMapGreen.get('gradient') ? null : gradient);
+}
+
+
+function changeGradientRed() {
+    var gradient = [
+        'rgba(200, 60, 40, 0)',
+        'rgba(180, 50, 30, 1)',
+        'rgba(175, 30, 20, 1)',
+        'rgba(170, 20, 15, 1)',
+        'rgba(165, 14, 10, 1)',
+        'rgba(160, 9, 5, 1)',
+        'rgba(155, 5, 0, 1)',
+        'rgba(150, 3, 0, 1)',
+        'rgba(145, 1, 0, 1)',
+        'rgba(140, 0, 0, 1)',
+        'rgba(135, 0, 0, 1)',
+        'rgba(130, 0, 0, 1)',
+        'rgba(125, 0, 0, 1)',
+        'rgba(120, 0, 0, 1)'
+    ]
+    heatMax.set('gradient', heatMax.get('gradient') ? null : gradient);
 }
 
 function changeRadius() {

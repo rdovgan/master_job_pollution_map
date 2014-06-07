@@ -163,27 +163,6 @@ public class ApplicationController {
         return "success";
     }
 
-    @RequestMapping(value = "/getConf", method = RequestMethod.POST)
-    public @ResponseBody String getConf(@RequestParam(value = "timeBegin", required = true) String timeBegin,
-                                        @RequestParam(value = "timeEnd", required = true) String timeEnd,
-                                        @RequestParam(value = "timeDelta", required = true) String timeDelta,
-                                        @RequestParam(value = "eps", required = true) String eps,
-                                        @RequestParam(value = "layerCount", required = true) String layerCount,
-                                        @RequestParam(value = "layerHeight", required = true) String layerHeight,
-                                        @RequestParam("cellCount")String cellCountStr,
-                                        @RequestParam("cellWidth")String cellWidthStr){
-        cellWidth = Integer.parseInt(cellWidthStr);
-        cellCount = Integer.parseInt(cellCountStr);
-        variables.setCellWidth((int)cellWidth);
-        model.setT1(Double.parseDouble(timeBegin));
-        model.setT2(Double.parseDouble(timeEnd));
-        model.setDelta(Double.parseDouble(timeDelta));
-        model.setEps(Double.parseDouble(eps));
-        model.setLayerCount(Integer.parseInt(layerCount));
-        model.setLayerHeight(Integer.parseInt(layerHeight));
-        return "success";
-    }
-
     @RequestMapping(value = "/getHeightMap", method = RequestMethod.POST)
     public @ResponseBody String getHeightMap(@RequestBody String data)throws UnsupportedEncodingException{
         data = URLDecoder.decode(data, "UTF-8");
