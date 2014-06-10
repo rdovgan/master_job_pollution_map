@@ -117,15 +117,53 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title">Інформація</h4>
+                <h4 class="modal-title">Класи атмосферної стабільності</h4>
             </div>
-            <div class="modal-body" style="min-height: 280px;">
+            <div class="modal-body" style="min-height: 450px;">
                 <div class="col-xs-12">
-
+                    <table class="table table-striped">
+                        <tr>
+                            <th width="20%">Клас</th>
+                            <th>Ступінь стійкості атмосфери</th>
+                            <th>Погода</th>
+                        </tr>
+                        <tr>
+                            <td>A</td>
+                            <td>дуже нестійка</td>
+                            <td>дуже сонячна літня погода</td>
+                        </tr>
+                        <tr>
+                            <td>B</td>
+                            <td>середньо нестійка</td>
+                            <td>сонячно і тепло</td>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>слабо нестійка</td>
+                            <td>мінлива хмарність</td>
+                        </tr>
+                        <tr>
+                            <td>D</td>
+                            <td>нейтральна</td>
+                            <td>хмарний день або ніч</td>
+                        </tr>
+                        <tr>
+                            <td>E</td>
+                            <td>слабо стійка</td>
+                            <td>мінлива хмарність вночі</td>
+                        </tr>
+                        <tr>
+                            <td>F</td>
+                            <td>стійка</td>
+                            <td>ясна ніч</td>
+                        </tr>
+                        <tr>
+                            <td>G</td>
+                            <td>сильно стійка</td>
+                            <td>ясна холодна ніч, слабкий вітер</td>
+                        </tr>
+                    </table>
                 </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Закрити</button>
             </div>
         </div>
     </div>
